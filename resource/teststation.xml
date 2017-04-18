@@ -1,0 +1,342 @@
+<SensorML xmlns="http://www.opengis.net/sensorML/1.0.1" xmlns:sml="http://www.opengis.net/sensorML/1.0.1" xmlns:gml="http://www.opengis.net/gml" xmlns:swe="http://www.opengis.net/swe/1.0.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.1" xsi:schemaLocation="http://www.opengis.net/sensorML/1.0.1 http://schemas.opengis.net/sensorML/1.0.1/sensorML.xsd">
+    <sml:member>
+        <!--================-->
+        <!--  地面传感器平台 -->
+        <!--================-->
+        <sml:System gml:id="InsituSensorPlatform-Mobile">
+            <gml:description>Argo是“全球海洋观测业务系统计划(GOOS)”中的一个针对深海区温盐结构观测的子计划。APEX-Profiling-Float是Argo METRI/KMA, Republic of Korea,即Argo KORDI项目中采用自动剖面观测海水温、盐度的漂流设备，对于研究全球海洋的温度、盐度、环流及其它们的变化情况。</gml:description>
+            <gml:name>地面传感器平台</gml:name>
+            <!--  平台标签==>关键词  -->
+            <sml:keywords>
+                <sml:KeywordList>
+                    <sml:keyword>移动</sml:keyword>
+					<sml:keyword>Argo剖面浮标</sml:keyword>
+					<sml:keyword>APEX-Profiling-Float</sml:keyword>
+                    <sml:keyword>位置观测</sml:keyword>
+					<sml:keyword>深度观测</sml:keyword>
+					<sml:keyword>海水温度观测</sml:keyword>
+					<sml:keyword>海水盐度观测</sml:keyword>
+                </sml:KeywordList>
+            </sml:keywords>
+            <!--    标示符     -->
+            <sml:identification>
+                <sml:IdentifierList>
+                    <sml:identifier name="标识码">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:uniqueID">
+                            <sml:value>urn:liesmars:insitusensor:platform:ArgoFloat-APEX-Profiling-Float-2900452</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="全称">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
+                            <sml:value>APEX-Profiling-Float剖面浮标</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="简称">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
+                            <sml:value>APEX-Profiling-Float</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="Argo剖面浮标编码">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:argoFloatCode">
+                            <sml:value>2900452</sml:value>
+                        </sml:Term>
+                    </sml:identifier>					
+                <sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE-CP-41</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE41CP</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE41CP</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>sbe-41</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-sbe-41</sml:value></sml:Term></sml:identifier></sml:IdentifierList>
+            </sml:identification>
+            <!--  平台标签==>分类器  -->
+            <sml:classification>
+                <sml:ClassifierList>
+                    <sml:classifier name="平台类型">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:platformType">
+                            <sml:value>地面站点</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="传感器类型">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+                            <sml:value>移动车载平台</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="站点等级">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:stationLevel">
+                            <sml:value>自定义级别</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="共享级别">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sharingLevel">
+                            <sml:value>公开</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>海洋监测</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+					<sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>灾害</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>预报</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>生态</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>定位</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                </sml:ClassifierList>
+            </sml:classification>
+            <!--  平台互操作服务==>有效时间  -->
+            <sml:validTime>
+                <gml:TimePeriod gml:id="站点有效时间">
+                    <gml:beginPosition>2004-10-18T00:39:28.0Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </sml:validTime>
+            <!--  平台特征==>物理特征  -->
+            <sml:characteristics>
+                <swe:DataRecord definition="urn:ogc:def:property:Liesmars:physicalProperties">
+                    <swe:field name="Argo剖面浮标类型">
+                        <swe:Category definition="urn:ogc:def:property:argoFloatType">
+                            <swe:value>APEX-Profiling-Float</swe:value>
+                        </swe:Category>
+                    </swe:field>
+                    <swe:field name="是否可控">
+                        <swe:Boolean definition="urn:ogc:def:property:isOperable">
+                            <swe:value>false</swe:value>
+                        </swe:Boolean>
+                    </swe:field>
+                </swe:DataRecord>
+            </sml:characteristics>
+            <!--  平台能力==>观测感知能力  -->
+            <sml:capabilities>
+                <swe:DataRecord definition="urn:ogc:def:property:Liesmars:GeoPositionCapability">
+                    <swe:field name="observedBBOX">
+                        <swe:Envelope definition="urn:ogc:def:property:OGC:1.0:observedBBOX" referenceFrame="urn:ogc:def:crs:EPSG:4326">
+                            <swe:lowerCorner>
+                                <swe:Vector>
+                                    <swe:coordinate name="纬度">
+                                        <swe:Quantity axisID="y">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                    <swe:coordinate name="经度">
+                                        <swe:Quantity axisID="x">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                </swe:Vector>
+                            </swe:lowerCorner>
+                            <swe:upperCorner>
+                                <swe:Vector>
+                                    <swe:coordinate name="纬度">
+                                        <swe:Quantity axisID="y">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                    <swe:coordinate name="经度">
+                                        <swe:Quantity axisID="x">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                </swe:Vector>
+                            </swe:upperCorner>
+                        </swe:Envelope>
+                    </swe:field>
+                </swe:DataRecord>
+            </sml:capabilities>
+            <!--  平台能力==>存储计算能力  -->
+            <sml:capabilities>
+                <swe:DataRecord definition="urn:ogc:def:property:Liesmars:computingCapability">
+                    <swe:field name="存储容量">
+                        <swe:Quantity definition="urn:ogc:def:property:storage">
+                            <swe:uom code="GB"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="数据速率">
+                        <swe:Quantity definition="urn:ogc:def:property:dataRate">
+                            <swe:uom code="Mbps"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                </swe:DataRecord>
+            </sml:capabilities>
+            <!--  平台能力==>通信传输能力  -->
+            <sml:capabilities>
+                <swe:DataRecord definition="urn:ogc:def:property:Liesmars:communicationCapability">
+                    <swe:field name="数传模式">
+                        <swe:Category definition="urn:ogc:def:property:dataTransmissionMode">
+                            <swe:value>00</swe:value>
+                        </swe:Category>
+                    </swe:field>
+                    <swe:field name="通信方式">
+                        <swe:Text definition="urn:ogc:def:property:communicationMethod">
+                            <swe:value>00</swe:value>
+                        </swe:Text>
+                    </swe:field>
+					<swe:field name="数传访问门户">
+                        <swe:Category definition="urn:ogc:def:property:dataAccessPortal">
+                            <swe:value>http://osmc.noaa.gov/erddap/tabledap/OSMC_30day.html</swe:value>
+                        </swe:Category>
+                    </swe:field>
+                </swe:DataRecord>
+            </sml:capabilities>
+            <!--  平台互操作服务==>联系单位  -->
+            <sml:contact xlink:arcrole="urn:ogc:def:role:operator">
+                <sml:ResponsibleParty>
+                    <sml:organizationName>Korea Meteorological Administration (KMA)</sml:organizationName>
+                    <sml:contactInfo>
+                        <sml:phone>
+                            <sml:voice>00</sml:voice>
+                        </sml:phone>
+                        <sml:address>
+                            <sml:deliveryPoint>00</sml:deliveryPoint>
+                            <sml:city>00</sml:city>
+                            <sml:administrativeArea>00</sml:administrativeArea>
+                            <sml:postalCode>00</sml:postalCode>
+                            <sml:country>00</sml:country>
+                            <sml:electronicMailAddress>00</sml:electronicMailAddress>
+                        </sml:address>
+                    </sml:contactInfo>
+                </sml:ResponsibleParty>
+            </sml:contact>
+            <!--  平台能力==>定位能力  -->
+            <sml:position name="站点位置">
+                <swe:Position fixed="false" referenceFrame="urn:ogc:def:crs:EPSG:4326">
+                    <swe:location>
+                        <swe:Vector definition="urn:ogc:def:property:OGC:location">
+                            <swe:coordinate name="纬度">
+                                <swe:Quantity axisID="y" definition="urn:ogc:def:property:OGC:latitude">
+                                    <swe:uom code="deg"/>
+                                    <swe:value>00</swe:value>
+                                </swe:Quantity>
+                            </swe:coordinate>
+                            <swe:coordinate name="经度">
+                                <swe:Quantity axisID="x" definition="urn:ogc:def:property:OGC:longitude">
+                                    <swe:uom code="deg"/>
+                                    <swe:value>00</swe:value>
+                                </swe:Quantity>
+                            </swe:coordinate>
+                            <swe:coordinate name="高度">
+                                <swe:Quantity axisID="z" definition="urn:ogc:def:property:OGC:altitude">
+                                    <swe:uom code="m"/>
+                                    <swe:value>00</swe:value>
+                                </swe:Quantity>
+                            </swe:coordinate>
+                        </swe:Vector>
+                    </swe:location>
+                </swe:Position>
+            </sml:position>
+            <!--  平台互操作服务==>服务接口  -->
+            <sml:interfaces>
+                <sml:InterfaceList>
+                    <sml:interface name="ArgoFloat-APEX-Profiling-Float-2900452_SOS">
+                        <sml:InterfaceDefinition>
+                            <sml:serviceLayer>
+                                <swe:DataRecord definition="urn:ogc:def:interface:OGC:1.0:SWEServiceInterface">
+                                    <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceURL">
+                                        <swe:Text>
+                                            <swe:value>http://gsw.whu.edu.cn:8080/MongoSOS2/sos,LIESMARS</swe:value>
+                                        </swe:Text>
+                                    </swe:field>
+                                    <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceType">
+                                        <swe:Text>
+                                            <swe:value>SOS</swe:value>
+                                        </swe:Text>
+                                    </swe:field>
+                                    <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceSpecificSensorID">
+                                        <swe:Text>
+                                            <swe:value>urn:liesmars:insitusensor:platform:ArgoFloat-APEX-Profiling-Float-2900452</swe:value>
+                                        </swe:Text>
+                                    </swe:field>
+                                </swe:DataRecord>
+                            </sml:serviceLayer>
+                        </sml:InterfaceDefinition>
+                    </sml:interface>
+                </sml:InterfaceList>
+            </sml:interfaces>
+            <!--  输入输出  -->
+            <sml:inputs>
+                <sml:InputList>
+                    <sml:input name="Argo浮标信号">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatSignal"/>
+                    </sml:input>
+					<sml:input name="观测深度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"/>
+                    </sml:input>
+					<sml:input name="海水温度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatZtmp"/>
+                    </sml:input>
+                    <sml:input name="海水盐度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatZsal"/>
+                    </sml:input>
+                </sml:InputList>
+            </sml:inputs>
+            <sml:outputs>
+                <sml:OutputList>
+                    <sml:output name="位置">
+                        <swe:Position definition="urn:ogc:def:phenomenon:OGC:1.0.30:position">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                        </swe:Position>
+                    </sml:output>
+					<sml:output name="观测深度">
+                        <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                            <swe:uom code="dbar"/>
+                        </swe:Quantity>
+                    </sml:output>
+					<sml:output name="海水温度">
+                        <swe:Quantity definition="urn:ogc:def:phenomenon:OGC:1.0.30:argoFloatZtmp">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+							<swe:uom code="degC(ITS-90)"/>
+                        </swe:Quantity>
+                    </sml:output>
+					<sml:output name="海水盐度">
+                        <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatZsal">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                            <swe:uom code="psu"/>
+                        </swe:Quantity>
+                    </sml:output>
+                </sml:OutputList>
+            </sml:outputs>
+            <!--  组成部件  -->
+            <sml:components>
+                <sml:ComponentList>
+                <sml:component name="SBE-CP-41" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41"/><sml:component name="SBE41CP" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE41CP"/><sml:component name="sbe-41" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-sbe-41"/></sml:ComponentList>
+            </sml:components>
+            <!--     关联    -->
+        </sml:System>
+    </sml:member>
+</SensorML>

@@ -1,0 +1,1097 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="applicable-device"content="pc"><meta http-equiv="Cache-Control" content="no-transform " />
+	<meta charset="UTF-8">
+	<title>
+		外语学习 - 爱问知识人
+			</title> 
+	<meta name="description" content="外语学习:爱问外语学习栏目提供外语学习的知识。此外，您还可以在这里咨询任何有关外语学习问题，我们将会为您寻找合适的专家在第一时间内为您解答。" /><meta name="keywords" content="外语学习,爱问知识人外语学习"/><link rel="canonica" href="http://iask.sina.com.cn/c/187.html" />
+	<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/jquery-1.8.2.min.js'></script>
+	<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/inputbox.min.js'></script>
+	<meta name="applicable-device"content="pc">
+<meta http-equiv="Cache-Control" content="no-transform " />
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="http://static.iask.cn/v2017030702/css/category.list.min.css?v1.1.4">
+<link rel="stylesheet" type="text/css" href="http://static.iask.cn/v2017030702/css/category.style.min.css">
+<script type="text/javascript" src="http://static.iask.cn/v2017030702/js/new/common.min.js?V1.1.1"></script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<script src="http://static.iask.cn/v2017030702/js/common/tools.min.js" type="text/javascript"></script>
+<script src="http://static.iask.cn/v2017030702/js/common/Kn.min.js" type="text/javascript"></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/page.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/common_header_stat.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/script.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/piczoom.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/Kn.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/jquery.center.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/jy.base.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/jy.widget.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/page/wa_question.min.js'></script>
+<script type="text/javascript" src="http://static.iask.cn/v2017030702/js/common/tscroll.min.js"></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/page/category.list.min.js'></script>
+<script type='text/javascript' src='http://static.iask.cn/v2017030702/js/common/wenwo_common_function.min.js'></script>
+<script type="text/javascript" src="http://static.iask.cn/v2017030702/js/common/common.min.js"></script>
+<script type="text/javascript">
+var _href = window.location.href;
+var href = encodeURIComponent(_href);
+var _h = _href.replace("http://","http://m.");
+document.write("<meta http-equiv=\"mobile-agent\" content=\"format=html5;url="+_h+"\" />");
+document.write("<meta http-equiv=\"mobile-agent\" content=\"format=xhtml;url="+_h+"\" />");
+</script>
+<script type="text/javascript" src="http://static.iask.cn/v2017030702/js/page/new.index.min.js"></script>
+</head>
+<body class="innter-body">
+<div class="top-bar cf">
+        <div class="top-bar-right fl">
+            <a href="javascript:jump();" class="current" id="skip_index">爱问</a>
+            <a href="http://ishare.iask.sina.com.cn/" target="_blank">爱问共享资料</a>
+            <a href="http://fenlei.iask.sina.com.cn/" target="_blank">爱问分类</a>
+        </div>
+        <div class="fr">
+            <div class="user-info"  id="user-guest"><em>您好！</em><a class="login-link" href="#" style="color: #999;">请登录</a></div>
+            <div class="user-info" id="user-logined" style="display: none;" id="checkuserflag" isLogin="" userId="">
+                <div class="user-name fl" id="J_user_name">
+                    <a href="/user/profile" target="_blank">
+                        <div class="user-img fl user-img-src">
+                            <img width="20" height="20">
+                        </div>
+                        <p class="name user-login-name fl"></p>
+                        <i class="icon icon-arrow"></i>
+                    </a>
+                    <div class="user-nav">
+                        <p><a href="/user/profile" target="_blank">个人中心</a></p>
+                        <p><a href="/user/profile?tab=myquestion" target="_blank">我的提问</a></p>
+                        <p><a href="/user/profile?tab=myanswer" target="_blank">我的回答</a></p>
+                        <p><a href="/user/profile?tab=todayTask" target="_blank">今日任务</a></p>
+                        <p><a href="/user/profile?tab=setup" target="_blank">我的设置</a></p>
+                        <p><a href="#" onclick="iaskLogout();return false;"><i class="icon icon-exit"></i>退出</a></p> <!-- class="exit" -->
+                    </div>
+                </div>
+                <div class="news fl">
+                    <a href="/user/profile?tab=msginfo" target="_blank">
+                        <i class="icon icon-news icon-news-no" id="icon-news"></i>
+                        <span id="msg_em" style="display: none;">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+</div>
+<script type="text/javascript" src="http://static.iask.cn/v2017030702/js/common/iask_logout.min.js"></script>
+<div class="header-new">
+    <div class="pw pw-v cf">
+        <h1 class="logo-new fl">
+            <a href="/"><img src="http://static.iask.cn/v2017030702/images/new/logo.jpg"></a>
+        </h1>
+        <div class="search-con-new fl">
+            <div class="search-bar fl">
+                <input type="text" class="search-input fl" id="Winit">
+                <a class="btn-search" id="serach_btn">搜索答案</a>
+            </div>
+            <a href="javascript:void(0);" class="link-header" id="toAskView">我要提问</a>
+        </div>
+        <div class="gg-header">
+			<script src="http://dup.baidustatic.com/js/ds.js"></script>
+			<script>
+			(function() {
+			    var s = "_" + Math.random().toString(36).slice(2);
+			    document.write('<div id="' + s + '"></div>');
+			    (window.slotbydup=window.slotbydup || []).push({
+			        id: '2491531',
+			        container: s,
+			        size: '150,90',
+			        display: 'inlay-fix'
+			    });
+			})();
+			</script>
+        </div>
+    </div>
+</div>
+<div class="nav-con">
+		<div class="pw pw-v nav">
+	    	<ul class="nav-list lf">
+	        	<li><a href="/">首页</a></li>
+	            <li class="nav-more-li">
+	                <a href="#">问题库<i class="ico-nav-arrow"></i></a>
+	                <div class="nav-more cf">
+	                    <div class="bg-nav-more"></div>
+	                    <div class="nav-more-item fl">
+	                        <p><a href="/c/74.html">电脑网络</a></p>
+	                        <p><a href="/c/78.html">体育运动</a></p>
+	                        <p><a href="/c/79.html">医疗健康</a></p>
+	                        <p><a href="/c/77.html">游戏</a></p>
+	                    </div>
+	                    <div class="nav-more-line fl"></div>
+	                    <div class="nav-more-item fl">
+	                        <p><a href="/c/82.html">商业理财</a></p>
+	                        <p><a href="/c/83.html">教育科学</a></p>
+	                        <p><a href="/c/80.html">生活</a></p>
+	                        <p><a href="/c/81.html">烦恼</a></p>
+	                    </div>
+	                    <div class="nav-more-line fl"></div>
+	                    <div class="nav-more-item fl">
+	                        <p><a href="/c/84.html">社会民生</a></p>
+	                        <p><a href="/c/85.html">文化艺术</a></p>
+	                        <p><a href="/c/95.html">电子数码</a></p>
+	                        <p><a href="/c/1031.html">娱乐休闲</a></p>
+	                    </div>
+	                    <div class="nav-more-line fl"></div>
+	                    <div class="nav-more-item fl">
+	                        <p><a href="/c/1101.html">资源共享</a></p>
+	                        <p><a href="/xinxi/index.html">其它</a></p>
+	                    </div>
+	                </div>
+	            </li>
+	            <li>
+	            	<a href="/d/index.html">爱问日报</a>
+	            </li>
+	            <li><a href="/user/profile">个人中心</a></li>
+	        </ul>
+	        <div class="tui-nav-txt fr">
+	        	<a href="http://www.haowj.com.cn/qitayulexiuxian/5573.html?daohang" target="_blank">女囚的噩梦！揭秘美国最大女子监狱</a>
+	        </div>
+	    </div>
+	</div>
+<script>
+function cookies_startWith(name){
+	var result = [];
+	if (document.cookie && document.cookie != '') {
+		var cookies = document.cookie.split(';');
+		for ( var i = 0; i < cookies.length; i++) {
+			var cookie = jQuery.trim(cookies[i]);
+			if (cookie.substring(0, name.length) == name) {
+				result.push( cookie);
+			}
+		}
+	}
+	return result;
+};
+function cookie(name, value, options) {
+	if (typeof value != 'undefined') { // name and value given, set cookie
+		options = options || {};
+		if (value === null) {
+			value = '';
+			options.expires = -1;
+		}
+		var expires = '';
+		if (options.expires
+				&& (typeof options.expires == 'number' || options.expires.toUTCString)) {
+			var date;
+			if (typeof options.expires == 'number') {
+				date = new Date();
+				date.setTime(date.getTime()
+						+ (options.expires * 24 * 60 * 60 * 1000));
+			} else {
+				date = options.expires;
+			}
+			expires = '; expires=' + date.toUTCString();
+		}
+		var path = options.path ? '; path=' + (options.path) : ';path=/';
+		var domain = options.domain ? '; domain=' + (options.domain) : '';
+		var secure = options.secure ? '; secure' : '';
+		var cookies = [ name, '=', encodeURIComponent(value), expires,
+						path, domain, secure ].join('');
+		document.cookie =cookies ;
+	} else {
+		var cookieValue = null;
+		if (document.cookie && document.cookie != '') {
+			var cookies = document.cookie.split(';');
+			for ( var i = 0; i < cookies.length; i++) {
+				var cookie = jQuery.trim(cookies[i]);
+				if (cookie.substring(0, name.length + 1) == (name + '=')) {
+					cookieValue = decodeURIComponent(cookie
+							.substring(name.length + 1));
+					break;
+				}
+			}
+		}
+		return cookieValue;
+	}
+};
+$("#toAskView").click(function(){
+	window.open("/ask.html?q="+$("#Winit").val());
+});
+$("#serach_btn").click(function(){
+		var search_word = $("#Winit").val();
+		if(cookies_startWith("search_word").length > 20){
+			alertErrorMsg("搜索太频繁了，请1分钟后再试！");
+			return false;
+		}
+		var now = new Date();
+		var expiresDate= new Date();
+		expiresDate.setTime(now.getTime() + (1 * 60 * 1000));
+		cookie("search_word" + now.getTime(), search_word, {expires : expiresDate});
+		location.href = "/search?searchWord="+search_word+"&record=1";
+	});
+</script>
+<div class="pw">
+	<div class="crumb">
+       <a class="fl" href="/">首页</a>
+       <span class="ico-nav icon-arrow-second"></span>
+       <div class="crumb-list fl">
+					<div class='dib pr current breadcast-fl'>
+<!-- <span> --><a href="/c/83.html">教育/科学<i class="ico-nav icon-crumb"></i><span class="bg-line"></span></div>
+					<div class="crumb-more">
+               			<ul>
+						<li><a href="/c/79.html" title="医疗健康"><span class="line"></span>
+								医疗健康</a></li>
+						<li><a href="/c/74.html" title="电脑/网络"><span class="line"></span>
+								电脑/网络</a></li>
+						<li><a href="/c/1031.html" title="娱乐休闲"><span class="line"></span>
+								娱乐休闲</a></li>
+						<li><a href="/c/77.html" title="游戏"><span class="line"></span>
+								游戏</a></li>
+						<li><a href="/c/78.html" title="体育/运动"><span class="line"></span>
+								体育/运动</a></li>
+						<li><a href="/c/95.html" title="电子数码"><span class="line"></span>
+								电子数码</a></li>
+						<li><a href="/c/80.html" title="生活"><span class="line"></span>
+								生活</a></li>
+						<li><a href="/c/82.html" title="商业/理财"><span class="line"></span>
+								商业/理财</a></li>
+						<li><a href="/c/84.html" title="社会民生"><span class="line"></span>
+								社会民生</a></li>
+						<li><a href="/c/1101.html" title="资源共享"><span class="line"></span>
+								资源共享</a></li>
+						<li><a href="/c/85.html" title="文化/艺术"><span class="line"></span>
+								文化/艺术</a></li>
+						<li><a href="/c/81.html" title="烦恼"><span class="line"></span>
+								烦恼</a></li>
+						</ul>
+						</div>
+					</div>
+<span class="ico-nav icon-arrow-second"></span> <div class="crumb-list fl">
+					<div class='dib pr current breadcast-fl'>
+<!-- <span> --><a href="/c/187.html">外语学习<i class="ico-nav icon-crumb"></i><span class="bg-line"></span></div>
+					<div class="crumb-more">
+               			<ul>
+						<li><a href="/c/197.html" title="学习帮助"><span class="line"></span>
+								学习帮助</a></li>
+						<li><a href="/c/192.html" title="院校信息"><span class="line"></span>
+								院校信息</a></li>
+						<li><a href="/c/1093.html" title="职业教育"><span class="line"></span>
+								职业教育</a></li>
+						<li><a href="/c/189.html" title="出国/留学"><span class="line"></span>
+								出国/留学</a></li>
+						<li><a href="/c/1223.html" title="人文学科"><span class="line"></span>
+								人文学科</a></li>
+						<li><a href="/c/202.html" title="理工学科"><span class="line"></span>
+								理工学科</a></li>
+						<li><a href="/c/1092.html" title="升学入学"><span class="line"></span>
+								升学入学</a></li>
+						</ul>
+						</div>
+					</div>
+</div>
+   <div class="panel mt10 pw pw-v">
+	<div class="panel-header plr20">
+		<h3 class="panel-title">
+			外语学习</h3>
+		<a href="javascript:void(0);" class="btn-link pw-ar" id="good_at" data="187">我擅长的<span class="btn ico-more1"></span></a>
+		</div>
+	<ul class="panel-body nav-pills mt10 plr20">
+		<li><a href="/c/955.html" title="德语">
+				德语</a></li>
+			<li><a href="/c/952.html" title="日语">
+				日语</a></li>
+			<li><a href="/c/954.html" title="法语">
+				法语</a></li>
+			<li><a href="/c/951.html" title="英语考试">
+				英语考试</a></li>
+			<li><a href="/c/953.html" title="韩语">
+				韩语</a></li>
+			<li><a href="/c/1094.html" title="英语翻译">
+				英语翻译</a></li>
+			</ul>	
+</div>
+<script>
+$('#good_at').bind('click',function(){
+	if($("#checkuserflag").attr("isLogin") == "true"){
+		judgeHelpGroup();
+	}else if($("#checkuserflag").attr("isLogin") == "false"){
+			$(".opacity").show();
+			$("#checkuserflag").show();
+			$(".dialog1").addClass("current").show();
+			dialog_scroll(".fixed");
+			$(window).scroll();
+	}else{
+		addLoginCookie();
+		$.get("/user/checkLogin?iask_cookie="+cookies_startWith("iask_cookie")+"&m=" + Math.random(),function(data){
+			var json = null;
+			try{json = $.parseJSON(data);}catch (e) {};
+			if(json.succ == "Y"){
+				$("#checkuserflag").attr("isLogin",true);
+				$("#checkuserflag").attr("userId",json.jsonData.userId);
+				$("#ask_tab").attr("uid",json.jsonData.userId);
+				judgeHelpGroup();
+			}else{
+				$("#checkuserflag").attr("isLogin",false);
+				$(".opacity").show();
+	 			$("#checkuserflag").show();
+	 			$(".dialog1").addClass("current").show();
+	 			dialog_scroll(".fixed");
+	 			$(window).scroll();
+			}
+		});
+	}
+});
+$('.goodat_layer .close_btn').bind('click',function(){
+	$('.goodat_layer').hide();
+});
+$('.goodat_layer .green_btn').bind('click',function(){
+	$('.goodat_layer').hide();
+	var cid = $("#currentCid").attr("categoryId");
+	window.location.href="/help/join?from=&cid="+cid;
+});
+$('.askbox_layer .close_btn').bind('click',function(){
+	$('.askbox_layer').hide();
+});
+$(".adv_select").on("click",".askAdviser",function(e){
+	var me = $(this);
+	var aid = me.attr("action_data");
+	$("#user_card").hide();
+	if($("#checkuserflag").attr("isLogin") == "true"){
+		postAsk();
+	}else if($("#checkuserflag").attr("isLogin") == "false"){
+		$(".opacity").show();
+			$("#checkuserflag").show();
+			$(".dialog1").addClass("current").show();
+			dialog_scroll(".fixed");
+			$(window).scroll();
+	}else{
+		addLoginCookie();
+		$.get("/user/checkLogin?iask_cookie="+cookies_startWith("iask_cookie")+"&m=" + Math.random(),function(data){
+			var json = null;
+			try{json = $.parseJSON(data);}catch (e) {};
+			if(json.succ == "Y"){
+				$("#checkuserflag").attr("isLogin",true);
+				$("#checkuserflag").attr("userId",json.jsonData.userId);
+				$("#ask_tab").attr("uid",json.jsonData.userId);
+				postAsk();
+			}else{
+				$("#checkuserflag").attr("isLogin",false);
+				$(".opacity").show();
+	 			$("#checkuserflag").show();
+	 			$(".dialog1").addClass("current").show();
+	 			dialog_scroll(".fixed");
+	 			$(window).scroll();
+			}
+		});
+	}
+	function postAsk(){
+		$.post("/adviser/preask",{aid:aid},function(result){
+			if(result){
+				if(result.status == 0){
+					var _data = result.data;
+					_data.aid = aid;
+					$.adviserAskAlert.call(me,e,_data);
+				}else{
+					$.adviserDiamondsLackAlert.call(me,e);
+				}
+			}else{
+				alertErrorMsg("操作失败，请稍后重试！");
+			};
+		},"json");
+	}
+});
+</script>
+<div class="panel p0 mt20 pw">
+		<div class="list-header pw-v">
+			<ul class="nav-pills cf">
+				<li class="current" type="all" id="all-li">
+					<a href="javascript:void(0);" onclick="showAllQuestion();">全部问题</a></li>
+				<li class="" type="goodAnswer">
+					<a href="/c/187-goodAnswer-1-new.html">已解决</a>
+				</li>
+				 <li class="" move="action" type="new" category="187">
+					<a href="javascript:void(0);" >待回答</a>
+				</li>
+				<li class="" move="action" type="hot" category="187">
+					<a href="javascript:void(0);">0回答</a>
+				</li>
+				</ul>
+			<a href="http://iask.sina.com.cn/help/index" class="btn-link pw-ar" target="_blank"><span class="ico-more2"></span>帮帮团</a>		
+		</div>
+		<div id="q_questions_list">
+			<div class="list-body">
+					<ul class="list-group">
+						<li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/11sgyhohNB.html" target="_blank" title="">有了解51talk的少儿英语的吗？ ..</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>17分钟前</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/KboHam9Dp.html" target="_blank" title="6岁侄子想报哒哒少儿英语，靠不靠谱啊？ 我哥昨天给我打电话，问我哒哒少儿英语怎么样，想要给6岁的侄子报名学英语，我也不知道靠不靠谱，求教。 ">6岁侄子想报哒哒少儿英语，靠不靠谱啊？ 我哥昨天给我打电话，问我哒哒少儿英语怎么样，想要给6岁的侄子报名学英语，我也不知道靠不靠谱，求教。 </a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">2回答</span>|<span>2017-03-12</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva3.sinaimg.cn/crop.61.0.111.111.50/eb9e436djw8f3g443xfe4j205k05k74o.jpg" width="40" height="40" alt="yu计划" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/hYvdihfer.html" target="_blank" title="">如何合理安排英语学习时间？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">5回答</span>|<span>2017-03-08</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva3.sinaimg.cn/crop.76.28.111.111.50/e9ab2323jw8f3gs6h5rcpj205k05kwen.jpg" width="40" height="40" alt="cc风光好" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/8j9hu9V2r.html" target="_blank" title="">工作生活这么忙，怎么有时间学英语呢？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">6回答</span>|<span>2017-03-08</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva1.sinaimg.cn/crop.8.2.186.186.50/005yF7SVgw1ej8mc3zfumj305k05kdfy.jpg" width="40" height="40" alt="清火火V" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/pzxj5ujrDd.html" target="_blank" title="">在vipabc能否有效的学习口语？ </a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">4回答</span>|<span>2017-03-08</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva3.sinaimg.cn/crop.76.28.111.111.50/e9ab2323jw8f3gs6h5rcpj205k05kwen.jpg" width="40" height="40" alt="cc风光好" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/bYhBL3QhJ.html" target="_blank" title="">学习英语不敢自信开口怎么办？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">5回答</span>|<span>2017-03-08</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva1.sinaimg.cn/crop.26.38.111.111.50/006ycbeIjw8f6tn33e9fgj305k05kgls.jpg" width="40" height="40" alt="吴丽101" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/85kvGDLVp.html" target="_blank" title="有高一升高二的补习班介绍吗？  东莞的英语辅导机构太多不知选哪个好">有高一升高二的补习班介绍吗？  东莞的英语辅导机构太多不知选哪个好</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">2回答</span>|<span>2017-03-02</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="/static/images/w-v03/head_normal_50.png" width="40" height="40" alt="李争激" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/6inzhbH9OLN.html" target="_blank" title="">“君子病无能焉，不病人之不己知也”这话是从哪来的？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-03-01</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/45FA1Wn8a4P.html" target="_blank" title="东莞哪家高二升高三英语补习班的环境好，想找个靠谱、老师水平又高的辅导班 ???">东莞哪家高二升高三英语补习班的环境好，想找个靠谱、老师水平又高的辅导班 ???</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-03-01</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva2.sinaimg.cn/crop.1.0.360.360.50/005ALLcOgw1elk37x3ralj30dj0gomyu.jpg" width="40" height="40" alt="美丽滴安琪" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/9QWY2rRuj.html" target="_blank" title="请问东莞高考英语补习班机构哪家好呢？想让孩子报读这边的英语辅导班 ">请问东莞高考英语补习班机构哪家好呢？想让孩子报读这边的英语辅导班 </a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">2回答</span>|<span>2017-03-01</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva4.sinaimg.cn/crop.0.1.549.549.50/005As0ICgw1ekejciyzr8j30pf0gxjvn.jpg" width="40" height="40" alt="-夜曦如梦-" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/3VQvmCTx3d.html" target="_blank" title="东莞高一英语辅导班收费怎样，有没有性价比高的补习班机构介绍一下？ ">东莞高一英语辅导班收费怎样，有没有性价比高的补习班机构介绍一下？ </a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">2回答</span>|<span>2017-03-01</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/2MHEXYADVqz.html" target="_blank" title="东莞补习机构的老师水平如何，哪家高三英语辅导机构的补习班效果比较好？ ">东莞补习机构的老师水平如何，哪家高三英语辅导机构的补习班效果比较好？ </a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-28</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="/static/images/w-v03/head_normal_50.png" width="40" height="40" alt="黄新月" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/6dr5Wo1GTrd.html" target="_blank" title="">引语中句末点号应该点在哪里？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-27</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva3.sinaimg.cn/crop.0.0.180.180.50/d39b9e83jw1e8qgp5bmzyj2050050aa8.jpg" width="40" height="40" alt="y红红531" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/dPlIoqxQf.html" target="_blank" title="">请问现在小孩子读的英语以后有用吗？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">2回答</span>|<span>2017-02-26</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/nSqtXdqWv.html" target="_blank" title="小孩子今年都7岁了，学英语从来不会开口，怎么办啊？ 。。。。。">小孩子今年都7岁了，学英语从来不会开口，怎么办啊？ 。。。。。</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">2回答</span>|<span>2017-02-26</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tvax4.sinaimg.cn/default/images/default_avatar_male_50.gif" width="40" height="40" alt="yu东方" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/noQFldizN.html" target="_blank" title="">英语是不是不适合男孩子学习呢？他们好像静不下心来。</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-26</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://tva3.sinaimg.cn/crop.76.28.111.111.50/e9ab2323jw8f3gs6h5rcpj205k05kwen.jpg" width="40" height="40" alt="cc风光好" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/uuFwiHmmD.html" target="_blank" title="">哒哒abc和久伴英语比哪个好？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-26</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/53kRfU26jV.html" target="_blank" title="明天全家就要去美国了，但是小孩子刚3岁，现在都不知道是教他英语好还是中文好？">明天全家就要去美国了，但是小孩子刚3岁，现在都不知道是教他英语好还是中文好？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-26</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/4FkE0ZOByf.html" target="_blank" title="">我孩子只有3岁不到，接触英语类学习会不会早了点呢？ </a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-25</span>
+					                </div>				
+								</div>
+							</li>
+					 <li class="list">
+								<div class="clearfix">
+									<div class="user-img">
+										<a href="#">
+										<img src="http://static.iask.cn/v2017030702/images/anonymity_pic.jpg" width="40" height="40" alt="" />
+										</a>
+									</div>
+									<div class="question-title">
+										<a href="/b/3mFRNu52Hl.html" target="_blank" title="要是小孩子能自己主动学英语就好了。               怎么让孩子学习英语？">要是小孩子能自己主动学英语就好了。               怎么让孩子学习英语？</a> 
+					                </div>
+					                <div class="queation-other">
+					                    <span class="fl answer_num db">1回答</span>|<span>2017-02-25</span>
+					                </div>				
+								</div>
+							</li>
+					 </ul>
+				</div>
+		        <div class="pages"  pageCount="100" ss="1-all" >
+					<span>
+						<a href="/c/187-all-1-new.html" class="cur">1</a><a class="more" style="display:none;">...</a>
+						<a href="/c/187-all-180-new.html" class="">2</a>
+						<a href="/c/187-all-191-new.html" class="">3</a>
+						<a class="more" style="">...</a>
+						<a href="/c/187-all-86988-new.html" class="">100</a>
+						<a href="/c/187-all-180-new.html" style="width: 65px">下一页</a><div style="display:none" currentPage="1" id="currentPage"></div>
+						</span>
+					</div>
+				</div>
+		<div id="w_questions_list" style="display: none;"></div>
+	</div>
+	<script>
+	var c_type = 'all';
+	if(window.location.href.indexOf("#3") != -1){
+		$('.pw-v li').siblings().removeClass("current");
+		$("#all-li").addClass("current");
+		$("#w_questions_list").hide();
+		$("#q_questions_list").show();
+	}
+	if(c_type == 'all'){
+		$("#w_questions_list").hide();
+		$("#q_questions_list").show();
+	}
+	function showAllQuestion(){
+		$("#w_questions_list").hide();
+		$("#q_questions_list").show();
+		$('.pw-v li').siblings().removeClass("current");
+		$("#all-li").addClass("current");
+	}
+	$(function(){
+		if(c_type != 'all'){
+			var data={categoryId:'187',type:'new',pageNum:1};
+			var _obj = $("#w_questions_list");
+			loadCategoryData(data , _obj);	 
+		}
+		$('.nav-pills li[move!=action]').bind('click',function(){
+			var _a = $(this).find("a");
+			location.href=_a.attr("href");
+		});
+	});
+	</script>
+<div class="pw mt13"> 
+		<div class="hot_search hot_stop"  >
+	<div class="search-tab">
+		<span class="title-h2">热点检索</span></div>
+	<div class="search-ct">
+		<div class="search-item">
+			<div class="hot_eg clearfix tab_bar retrieval-nav cf">
+				<a class="current" href="javascript:void(0)">A<em></em></a><a href="javascript:void(0)">B<em></em></a><a href="javascript:void(0)">C<em></em></a><a href="javascript:void(0)">D<em></em></a><a href="javascript:void(0)">E<em></em></a><a href="javascript:void(0)">G<em></em></a><a href="javascript:void(0)">H<em></em></a><a href="javascript:void(0)">J<em></em></a><a href="javascript:void(0)">K<em></em></a><a href="javascript:void(0)">L<em></em></a><a href="javascript:void(0)">M<em></em></a><a href="javascript:void(0)">N<em></em></a><a href="javascript:void(0)">P<em></em></a><a href="javascript:void(0)">Q<em></em></a><a href="javascript:void(0)">R<em></em></a><a href="javascript:void(0)">S<em></em></a><a href="javascript:void(0)">T<em></em></a><a href="javascript:void(0)">W<em></em></a><a href="javascript:void(0)">X<em></em></a><a href="javascript:void(0)">Y<em></em></a><a href="javascript:void(0)">Z<em></em></a></div>	
+			<div class="tab_ct hot_ct" style="margin-top: -20px">
+				<ul class="tab_div clearfix retrieval-list"    >
+				 		<li><a href="/key/57f9f04d84ae241fd7e9465a.html">爱在心口难开英文版</a></li>
+						<li><a href="/key/55949adfe4b0c60ca4953b7c.html">阿拉伯马</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57fda37d84ae241fd7eb01a3.html">百朗英语听力下载</a></li>
+						<li><a href="/key/57fda7cb84ae241fd7eb5aec.html">不规则动词变化表</a></li>
+						<li><a href="/key/57b9e8cd84ae0a14bb6b03dd.html">爸爸回来了英文插曲</a></li>
+						<li><a href="/key/57bbf8ce84ae0a14bb6c5665.html">棒棒幼儿英语拼读教学</a></li>
+						<li><a href="/key/57b95af684ae0a14bb6a7ccd.html">步步高幼儿英语学习机</a></li>
+						<li><a href="/key/57b88e8d84ae0a14bb69bf20.html">宝宝学英语教材</a></li>
+						<li><a href="/key/57b7d10e84ae0a14bb69224e.html">爸爸英文歌</a></li>
+						<li><a href="/key/57af0a2d84ae0a14bb626737.html">宝宝学英语书籍推荐</a></li>
+						<li><a href="/key/55a60f8ce4b0e1e62f261569.html">百朗英语听力</a></li>
+						<li><a href="/key/55a60d0fe4b0e1e62f260ceb.html">百朗英语听力在线听</a></li>
+						<li><a href="/key/55a3163ae4b0cab77fd574df.html">百朗英语听力风暴</a></li>
+						<li><a href="/key/559de2b5e4b0cab77fd3d098.html">不规则动词过去式</a></li>
+						<li><a href="/key/551cd9815f1dd8c4a3fc9f47.html">百朗英语听力材料</a></li>
+						<li><a href="/key/551cd9815f1dd8c4a3fc9eb7.html">百朗英语听力风暴2014</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57fda7cc84ae241fd7eb5af3.html">初中英语时态</a></li>
+						<li><a href="/key/57fc49bf84ae241fd7ea6b00.html">成人still病诊断标准</a></li>
+						<li><a href="/key/57fc4a0d84ae241fd7ea7675.html">初中英语听力下载</a></li>
+						<li><a href="/key/57a97d3c84ae0a14bb5c5f71.html">成人still病</a></li>
+						<li><a href="/key/57a97fcd84ae0a14bb5c719b.html">成人still病预后</a></li>
+						<li><a href="/key/57a980df84ae0a14bb5c792a.html">成人斯迪尔病有</a></li>
+						<li><a href="/key/57a949d284ae0a14bb5bed86.html">成人still病诊</a></li>
+						<li><a href="/key/55b046c5e4b00c2b8b7e0ea1.html">初中英语学习</a></li>
+						<li><a href="/key/55af83b1e4b00c2b8b7c3558.html">初中英语作文</a></li>
+						<li><a href="/key/55af7fd6e4b00c2b8b7c0a91.html">初级英语听力下载</a></li>
+						<li><a href="/key/55af7db1e4b00c2b8b7bf1fd.html">初中英语听力材料</a></li>
+						<li><a href="/key/55af7d51e4b00c2b8b7bee2f.html">从零开始学英语单词</a></li>
+						<li><a href="/key/55a712c7e4b0e1e62f295426.html">初中英语单词表</a></li>
+						<li><a href="/key/55a60f53e4b0e1e62f2613f6.html">初中英语学习口诀</a></li>
+						<li><a href="/key/559dee1be4b0cab77fd3ea8c.html">初中英语听力300题</a></li>
+						<li><a href="/key/559de65de4b0cab77fd3d6f8.html">常用英语交际口语</a></li>
+						<li><a href="/key/559de0ede4b0cab77fd3cc5f.html">乘法口诀速记方法</a></li>
+						<li><a href="/key/551cd9fb5f1d0ecfb942507f.html">初中英语教学视频</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57fc496984ae241fd7ea5e50.html">单词记忆术</a></li>
+						<li><a href="/key/57b3d02284ae0a14bb66187e.html">单亲家庭对孩子成长的影响英语作文</a></li>
+						<li><a href="/key/55af83ffe4b00c2b8b7c3906.html">单词记忆法</a></li>
+						<li><a href="/key/55aeffa9e4b00c2b8b798833.html">大学英语听力</a></li>
+						<li><a href="/key/55a7101ae4b0e1e62f2945c5.html">大耳朵英语网</a></li>
+						<li><a href="/key/55a32441e4b0cab77fd716ce.html">单词表</a></li>
+						<li><a href="/key/55a31f1ce4b0cab77fd70e4c.html">单词全记牢</a></li>
+						<li><a href="/key/551cda0a5f1d0ecfb942654e.html">大耳朵英语学习网站</a></li>
+						<li><a href="/key/551cd96b5f1dd8c4a3fc824f.html">动词不定式</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/586e1c7fe4b08b7c3e6d4411.html">儿童适合学英语的年龄</a></li>
+						<li><a href="/key/5806db8184ae182c9d843fb0.html">俄语专业</a></li>
+						<li><a href="/key/57bc081d84ae0a14bb6c779a.html">儿童学英语的方法</a></li>
+						<li><a href="/key/57b66c1484ae0a14bb684c46.html">儿童学习英语的好处</a></li>
+						<li><a href="/key/57a980ad84ae0a14bb5c7779.html">儿童still病</a></li>
+						<li><a href="/key/55af85b9e4b00c2b8b7c4d29.html">extension</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57fc49ef84ae241fd7ea7217.html">古老的反义词</a></li>
+						<li><a href="/key/55adaf8de4b00c2b8b759324.html">高中英语听力</a></li>
+						<li><a href="/key/55a31ee1e4b0cab77fd70db4.html">狗语言翻译机</a></li>
+						<li><a href="/key/551cda095f1d0ecfb9426316.html">高频听力下降治疗</a></li>
+						<li><a href="/key/551cda015f1d0ecfb94258bd.html">高频听力测试</a></li>
+						<li><a href="/key/551cd9755f1dd8c4a3fc8f67.html">高频听力损失</a></li>
+						<li><a href="/key/551cd9635f1dd8c4a3fc7750.html">gucci</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57b397a584ae0a14bb65ec00.html">好学的英文儿童歌</a></li>
+						<li><a href="/key/57b1aee084ae0a14bb6436e4.html">欢快的幼儿英文歌</a></li>
+						<li><a href="/key/55a715b1e4b0e1e62f2963e5.html">华尔街日报中文网</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57bc490684ae0a14bb6ce28d.html">简单的儿童英语单词</a></li>
+						<li><a href="/key/57a97ce084ae0a14bb5c5cf5.html">脊髓小脑变性症和als</a></li>
+						<li><a href="/key/55af869de4b00c2b8b7c57ea.html">剑桥少儿英语教师用书</a></li>
+						<li><a href="/key/55af783ee4b00c2b8b7bb80f.html">剑桥少儿英语教材</a></li>
+						<li><a href="/key/55a48424e4b0fe26b6598c4e.html">剑桥少儿英语一级</a></li>
+						<li><a href="/key/55a31c22e4b0cab77fd70905.html">剑桥少儿英语预备级</a></li>
+						<li><a href="/key/559ddd49e4b0cab77fd3c738.html">基础英语口语学习</a></li>
+						<li><a href="/key/55910461e4b0c60ca48b398f.html">剑桥少儿英语考试</a></li>
+						<li><a href="/key/551cda065f1d0ecfb9425fae.html">简单英语听力下载</a></li>
+						<li><a href="/key/551cd9885f1dd8c4a3fca83c.html">紧张的英语单词</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/55adac33e4b00c2b8b758037.html">快速记忆英语单词</a></li>
+						<li><a href="/key/5594a75de4b0c60ca4955dde.html">口语交际能力训练</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/55af7fe4e4b00c2b8b7c0b74.html">练英语听力</a></li>
+						<li><a href="/key/55af7dcbe4b00c2b8b7bf285.html">练习英语口语的电影</a></li>
+						<li><a href="/key/55ac603fe4b00c2b8b72e2bf.html">练英语听力的电影</a></li>
+						<li><a href="/key/55a479a9e4b0fe26b6598494.html">练习英语听力的网站</a></li>
+						<li><a href="/key/55a329cae4b0cab77fd721de.html">练英语听力的网站</a></li>
+						<li><a href="/key/55a31debe4b0cab77fd70bc4.html">零基础学习英语口语</a></li>
+						<li><a href="/key/559dea62e4b0cab77fd3e10d.html">李阳疯狂英语脱口而出</a></li>
+						<li><a href="/key/559de750e4b0cab77fd3d8c7.html">练习英语口语的软件</a></li>
+						<li><a href="/key/551cda145f1d0ecfb942723b.html">零基础英语学习音标</a></li>
+						<li><a href="/key/551cda145f1d0ecfb94271e9.html">零基础英语学习视频</a></li>
+						<li><a href="/key/551cd9725f1dd8c4a3fc8b9f.html">language</a></li>
+						<li><a href="/key/551cd9635f1dd8c4a3fc7723.html">练习英语发音的网站</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/586e194ae4b08b7c3e6d1c95.html">妈妈的英语是</a></li>
+						<li><a href="/key/580038f984ae73c3f4cd3cce.html">马鞍山中加双语学校</a></li>
+						<li><a href="/key/57fc49c184ae241fd7ea6b43.html">免费学习英语的软件</a></li>
+						<li><a href="/key/57bc430184ae0a14bb6cd937.html">妈妈很久没有性生活</a></li>
+						<li><a href="/key/57bc7f4784ae0a14bb6d4034.html">妈妈的单词’</a></li>
+						<li><a href="/key/55af88a2e4b00c2b8b7c6fb0.html">免费英语学习网站</a></li>
+						<li><a href="/key/55af860ee4b00c2b8b7c5121.html">每日英语学习网站</a></li>
+						<li><a href="/key/55af7a26e4b00c2b8b7bcd01.html">美丽的反义词</a></li>
+						<li><a href="/key/5594a815e4b0c60ca4956075.html">免费英语听力</a></li>
+						<li><a href="/key/55949a2ae4b0c60ca49538b1.html">每日英语口语学习</a></li>
+						<li><a href="/key/551cda035f1d0ecfb9425be3.html">免费英语学习软件</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/5594aa72e4b0c60ca49568d2.html">女性英文名</a></li>
+						<li><a href="/key/551cd9655f1dd8c4a3fc7a3d.html">脑干听力诱发电位</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57fc485a84ae241fd7ea38bf.html">poetry</a></li>
+						<li><a href="/key/57a97f9f84ae0a14bb5c708a.html">poy变性过程</a></li>
+						<li><a href="/key/559ba250e4b07f780ca82fb8.html">朋友英文翻译</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/57f9f12084ae241fd7e95227.html">强烈的反义词</a></li>
+						<li><a href="/key/55af7832e4b00c2b8b7bb77b.html">巧记英语单词</a></li>
+						<li><a href="/key/55a32845e4b0cab77fd71f1c.html">全免费英语学习网站</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/580dca43e4b06aa53fad08f7.html">日常交际英语口语</a></li>
+						<li><a href="/key/5806dcaa84ae182c9d846814.html">retina</a></li>
+						<li><a href="/key/57fc4b0d84ae241fd7ea9a09.html">日常英语口语8000句</a></li>
+						<li><a href="/key/55af89a8e4b00c2b8b7c7c3f.html">人耳听力测试</a></li>
+						<li><a href="/key/55af7840e4b00c2b8b7bb82b.html">日常英语口语mp3</a></li>
+						<li><a href="/key/55949f5fe4b0c60ca4954618.html">日常英语口语</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/580dcc94e4b06aa53fad3d51.html">手机英语学习软件</a></li>
+						<li><a href="/key/5806e09984ae182c9d84e6a6.html">少儿英语教学视频</a></li>
+						<li><a href="/key/57fc47e984ae241fd7ea295f.html">上海意大利语学习</a></li>
+						<li><a href="/key/57fb0bf784ae241fd7e9cd87.html">少儿英语教材</a></li>
+						<li><a href="/key/57b7eb7884ae0a14bb693d13.html">适合10岁儿童学的英语歌</a></li>
+						<li><a href="/key/57b78d9f84ae0a14bb68ea8b.html">上海宝宝英语培训机构</a></li>
+						<li><a href="/key/57b6687184ae0a14bb684887.html">双胞胎姐妹英语名字</a></li>
+						<li><a href="/key/57b6618b84ae0a14bb6841a2.html">适合宝宝学英语的软件</a></li>
+						<li><a href="/key/55af8635e4b00c2b8b7c53be.html">四级听力真题</a></li>
+						<li><a href="/key/55ac6652e4b00c2b8b730c7b.html">少儿英语培训</a></li>
+						<li><a href="/key/559de2ade4b0cab77fd3d085.html">少儿英语听力下载</a></li>
+						<li><a href="/key/559ba49be4b07f780ca83553.html">少儿英语培训班</a></li>
+						<li><a href="/key/55910526e4b0c60ca48b3e20.html">少儿英语学习</a></li>
+						<li><a href="/key/551cda075f1d0ecfb94260bf.html">少儿英语游戏</a></li>
+						<li><a href="/key/551cd9775f1dd8c4a3fc917c.html">still</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/58258dc5e4b062a861ccd9b0.html">听力脑干诱发电位检查</a></li>
+						<li><a href="/key/5806e18984ae182c9d84ff1e.html">听力损失</a></li>
+						<li><a href="/key/5800b1f184ae73c3f4cdd513.html">听力训练</a></li>
+						<li><a href="/key/57fda47684ae241fd7eb12de.html">听力减弱</a></li>
+						<li><a href="/key/57fda4de84ae241fd7eb1a9d.html">听力筛查</a></li>
+						<li><a href="/key/57fc4b0884ae241fd7ea992f.html">听力障碍</a></li>
+						<li><a href="/key/57f9f1b584ae241fd7e95aa8.html">听力损伤</a></li>
+						<li><a href="/key/57ba5eb284ae0a14bb6b6519.html">通州儿童英语培训</a></li>
+						<li><a href="/key/57b66a3b84ae0a14bb684a55.html">天线宝宝英语名字</a></li>
+						<li><a href="/key/57b50efc84ae0a14bb672404.html">同房20天看不到孕囊</a></li>
+						<li><a href="/key/55af7ca5e4b00c2b8b7be63a.html">提高听力的方法</a></li>
+						<li><a href="/key/55af7c75e4b00c2b8b7be3df.html">同学英文</a></li>
+						<li><a href="/key/55af0103e4b00c2b8b798fa1.html">听力测试</a></li>
+						<li><a href="/key/55a48e4de4b0fe26b659946d.html">提高英语听力的方法</a></li>
+						<li><a href="/key/559103e6e4b0c60ca48b369e.html">听力恢复</a></li>
+						<li><a href="/key/551cd97b5f1dd8c4a3fc97a7.html">听力下降</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/584a894ce4b08b7c3e50f426.html">我妈妈的英语的</a></li>
+						<li><a href="/key/584a894c14ea70f2aa5c469c.html">我妈妈的英语的</a></li>
+						<li><a href="/key/58258ae3e4b062a861cca578.html">我的饮食习惯英语翻译</a></li>
+						<li><a href="/key/57b3a53584ae0a14bb65f7ef.html">网上儿童英语培训机构</a></li>
+						<li><a href="/key/57a97bda84ae0a14bb5c55d5.html">willis环</a></li>
+						<li><a href="/key/5594a85ae4b0c60ca495618b.html">维克多英语听力下载</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/584a16b4e4b00f2d1df919fe.html">星火英语听力下载</a></li>
+						<li><a href="/key/5806e15284ae182c9d84f980.html">学英语单词视频</a></li>
+						<li><a href="/key/57fda2c384ae241fd7eaf165.html">学英语口语的网站</a></li>
+						<li><a href="/key/57fda48584ae241fd7eb13cd.html">学习英语口语的软件</a></li>
+						<li><a href="/key/57f9ee5c84ae241fd7e92676.html">西班牙语大舌音</a></li>
+						<li><a href="/key/57b934e884ae0a14bb6a5a1f.html">现代儿童英语视频</a></li>
+						<li><a href="/key/55aeffa5e4b00c2b8b798816.html">学习英语口语</a></li>
+						<li><a href="/key/55aef12fe4b00c2b8b7936e6.html">学习英语的软件</a></li>
+						<li><a href="/key/55adaedee4b00c2b8b758f95.html">学习英语口语的电影</a></li>
+						<li><a href="/key/55a71016e4b0e1e62f294595.html">学习英语口语的好方法</a></li>
+						<li><a href="/key/559ba42ee4b07f780ca83440.html">学英语口语</a></li>
+						<li><a href="/key/5594a1f4e4b0c60ca4954ed2.html">星火英语下载网</a></li>
+						<li><a href="/key/55949cc7e4b0c60ca4953fb1.html">小学生英语听力下载</a></li>
+						<li><a href="/key/55910595e4b0c60ca48b407c.html">星火英语网</a></li>
+						<li><a href="/key/551cda065f1d0ecfb9426002.html">学英语单词</a></li>
+						<li><a href="/key/551cd98a5f1dd8c4a3fcaa64.html">学习英语口音</a></li>
+						<li><a href="/key/551cd97a5f1dd8c4a3fc95eb.html">新概念英语1</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/58258a68e4b062a861cc9df9.html">饮食英语对话</a></li>
+						<li><a href="/key/580dcb8ae4b06aa53fad265e.html">英语清辅音和浊辅音</a></li>
+						<li><a href="/key/580dcc3ce4b06aa53fad3633.html">英语单词趣味记忆法</a></li>
+						<li><a href="/key/5806e08284ae182c9d84e3cf.html">英语口语在线学习</a></li>
+						<li><a href="/key/5806e09784ae182c9d84e66c.html">英语听力下载网站</a></li>
+						<li><a href="/key/5806e22284ae182c9d850dbb.html">英语自我介绍视频</a></li>
+						<li><a href="/key/5800384084ae73c3f4cd19fb.html">英语口音</a></li>
+						<li><a href="/key/57fda3d884ae241fd7eb07f9.html">英语入门</a></li>
+						<li><a href="/key/57fda66384ae241fd7eb395d.html">英语国际音标读法</a></li>
+						<li><a href="/key/57fda7b984ae241fd7eb58d3.html">英语口语学习网站</a></li>
+						<li><a href="/key/57fc471984ae241fd7ea0d6f.html">英语口语学习视频</a></li>
+						<li><a href="/key/57fc480684ae241fd7ea2d31.html">英语国际音标发音</a></li>
+						<li><a href="/key/57fc480984ae241fd7ea2d98.html">英语名词</a></li>
+						<li><a href="/key/57fc491284ae241fd7ea51f2.html">雅思听力机经词汇</a></li>
+						<li><a href="/key/57fc49b684ae241fd7ea699b.html">用英语介绍自己</a></li>
+						<li><a href="/key/57fc49e284ae241fd7ea7017.html">英语教学机构</a></li>
+						<li><a href="/key/57fc49f284ae241fd7ea7288.html">意大利语学习</a></li>
+						<li><a href="/key/57f9f32784ae241fd7e9710a.html">英语听力训练</a></li>
+						</ul>
+				<ul class="tab_div clearfix retrieval-list"   style="display: none;" >
+				 		<li><a href="/key/584a163ee4b00f2d1df90bfe.html">在线学英语口语网站</a></li>
+						<li><a href="/key/5805997884ae182c9d83ea5e.html">在线英语学习</a></li>
+						<li><a href="/key/57fb0b7b84ae241fd7e9bd0b.html">在线学英语单词发音</a></li>
+						<li><a href="/key/57a97bf484ae0a14bb5c56c2.html">中秋节英语作文</a></li>
+						<li><a href="/key/55af86e5e4b00c2b8b7c5b9d.html">在线学英语听力</a></li>
+						<li><a href="/key/559ba4b2e4b07f780ca83583.html">在线学英语单词</a></li>
+						<li><a href="/key/5594a8bee4b0c60ca495630f.html">在线英语听力室</a></li>
+						<li><a href="/key/5594a10de4b0c60ca4954b14.html">在线英语听力</a></li>
+						<li><a href="/key/5594a063e4b0c60ca49548c5.html">在线听力测试</a></li>
+						<li><a href="/key/55910668e4b0c60ca48b45da.html">在线学英语口语视频</a></li>
+						</ul>
+				</div>
+		</div>
+		</div>	
+</div>
+<script type="text/javascript">
+$(function(){
+	$('.tab_bar a').bind('click',function(){
+		var nb = $(this).index();
+		var $ct = $(this).parent(".tab_bar").next('.tab_ct').find(".tab_div");
+		$(this).addClass("current").siblings().removeClass("current");
+		$ct.eq(nb).siblings().hide();
+		$ct.eq(nb).show();
+		return false;
+	});
+	$('.search-tab span').on('click',function(){
+		var nb = $(this).index();
+		var $ct = $(this).parent(".search-tab").next('.search-ct').find(".search-item");
+		$(this).addClass("current").siblings().removeClass("current");
+		$ct.eq(nb).siblings().hide();
+		$ct.eq(nb).show();
+	});
+});
+</script>
+</div>
+</div>
+<div class="footer-con">
+    	<div class="footer pw">
+        	<h2 class="title-h2">
+            	友情链接
+            	<div class="qq-con">
+                	<div class="qq-item">
+                    	<span>友链QQ</span>
+                        <span>1757623074</span>
+                    </div>
+                    <div class="qq-item">
+                    	<span>合作QQ</span>
+                        <span>903213109</span>
+                    </div>
+                </div>
+            </h2>
+            <div class="firent-link">
+            	<a href="http://kaoshi.china.com/cet4/" target="_blank">英语四级考试网</a></div>
+        </div>
+    </div>
+<div class="innter-footer mt20">
+    <div id="daily_cnxh_new">
+		<script type="text/javascript"> 
+			$("#daily_cnxh_new").load("/t/cnxh?moreCid="+$("#moreCid").val(),function(response,status,xhr){
+				if(status == "success"){
+					new Tscroll("scroll");
+				}
+			});
+		</script>
+	</div>
+    <div class="footer-con pw">
+        <p class="footer-nav">
+            <a href="/toa/">关于我们</a>
+            <a href="/agreement.html" target="_blank" >爱问协议</a>
+            <a target="_blank" href="/helpCenter/index.html">帮助中心</a>
+            <a href="/tos/">意见反馈</a>
+        </p>
+        <p class="copy">Copyright &copy; 1996-2016 haowj.com Corporation, All Rights Reserved</p>
+    </div>
+</div> 
+<span style="display: none;" categoryId="187" id="currentCid"></span>
+<div class="goodat_layer" style="display:none;">
+	<div class="shadow"></div>
+	<div class="goodat_box">
+		<a href="javascript:void(0);" class="close_btn pa">关闭</a>
+		<div class="goodat_t fYaHei">
+			<h3>爱问将根据您设定的“擅长领域”进行问题推荐！</h3>
+			<p>擅长领域修改后，将会在次日生效；</p>
+			<p>帮帮团成员首次修改擅长领域没有时间限制，之后每15天才能修改一次。</p>
+			<a href="javascript:void(0);" class="green_btn">知道了</a>
+		</div>
+		<div class="goodat_b"></div>
+	</div>
+</div>
+<div style="display:none">
+	<!-- <script  type="text/javascript" >
+					$.getScript("http://s6.cnzz.com/stat.php?id=1253377738&web_id=1253377738");
+		</script> -->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?4b2531b4274c5e2197ae6a67adcd6922";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+	</div>
+<script type="text/javascript" src="http://v1.cnzz.com/stat.php?id=5890382&web_id=5890382"></script>
+</body>
+</html>
