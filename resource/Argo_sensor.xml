@@ -1,0 +1,457 @@
+<SensorML version="1.0.1"
+          xsi:schemaLocation="http://www.opengis.net/sensorML/1.0.1 http://schemas.opengis.net/sensorML/1.0.1/sensorML.xsd"
+          xmlns="http://www.opengis.net/sensorML/1.0.1" xmlns:sml="http://www.opengis.net/sensorML/1.0.1"
+          xmlns:gml="http://www.opengis.net/gml" xmlns:swe="http://www.opengis.net/swe/1.0.1"
+          xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <sml:member>
+        <!--===============-->
+        <!-- 地面原位传感器 -->
+        <!--===============-->
+        <sml:System gml:id="InsituSensor">
+            <gml:description>
+                SBE41传感器是Argo剖面浮标的海水温、盐度信息采集漂流设备，集数据采集存储、无线数据通信、GPS、以及无线扩展等功能于一体,负责Argo剖面浮标位移等工作情况的远程监测与控制，以及全球海洋温度、盐度、环流及其它们变化情况的动态监测。
+            </gml:description>
+            <gml:name>地面原位传感器</gml:name>
+            <!--  传感器标签==>关键词  -->
+            <sml:keywords>
+                <sml:KeywordList>
+                    <sml:keyword>原位</sml:keyword>
+                    <sml:keyword>移动</sml:keyword>
+                    <sml:keyword>位置观测</sml:keyword>
+                    <sml:keyword>SBE41</sml:keyword>
+                    <sml:keyword>Argo剖面浮标</sml:keyword>
+                    <sml:keyword>******Name</sml:keyword>
+                    <sml:keyword>深度观测</sml:keyword>
+                    <sml:keyword>海水温度观测</sml:keyword>
+                    <sml:keyword>海水盐度观测</sml:keyword>
+                </sml:KeywordList>
+            </sml:keywords>
+            <!--  传感器标签==>标示符  -->
+            <sml:identification>
+                <sml:IdentifierList>
+                    <sml:identifier name="标识码">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:uniqueID">
+                            <sml:value>urn:liesmars:insitusensor:ArgoFloat-******Name-*****Code-SBE41</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="全称">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
+                            <sml:value>SBE41</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="简称">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
+                            <sml:value>SBE41</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="所属平台名称">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:parentSystemStandardName">
+                            <sml:value>******Name</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="所属平台标识码">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:parentSystemUniqueId">
+                            <sml:value>urn:liesmars:insitusensor:platform:ArgoFloat-******Name-*****Code</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="序列号">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:serialNumber">
+                            <sml:value>*****SerialNumber</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier name="制造厂商">
+                        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:manufacturer">
+                            <sml:value>SBE</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                </sml:IdentifierList>
+            </sml:identification>
+            <!--  传感器标签==>分类器  -->
+            <sml:classification>
+                <sml:ClassifierList>
+                    <sml:classifier name="传感器类型">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+                            <sml:value>地面移动传感器</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="传感器类型">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+                            <sml:value>Argo浮标装置</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="共享级别">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sharingLevel">
+                            <sml:value>公开</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>海洋监测</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>灾害</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>预报</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>生态</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                    <sml:classifier name="预期应用">
+                        <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+                            <sml:value>定位</sml:value>
+                        </sml:Term>
+                    </sml:classifier>
+                </sml:ClassifierList>
+            </sml:classification>
+            <!--  传感器互操作服务==>有效时间  -->
+            <sml:validTime>
+                <gml:TimePeriod gml:id="站点平台有效时间">
+                    <gml:beginPosition>2014-07-01T00:00:00.0Z****First station date</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </sml:validTime>
+            <!--  传感器特征==>物理特征  -->
+            <sml:characteristics>
+                <swe:DataRecord definition="urn:ogc:def:property:Liesmars:physicalProperties">
+                    <swe:field name="长度">
+                        <swe:Quantity definition="urn:ogc:def:property:length">
+                            <swe:uom code="m"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="宽度">
+                        <swe:Quantity definition="urn:ogc:def:property:width">
+                            <swe:uom code="m"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="高度">
+                        <swe:Quantity definition="urn:ogc:def:property:height">
+                            <swe:uom code="m"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="质量">
+                        <swe:Quantity definition="urn:ogc:def:property:weight">
+                            <swe:uom code="kg"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="电源类型">
+                        <swe:Category definition="urn:ogc:def:property:powerType">
+                            <swe:value>00</swe:value>
+                        </swe:Category>
+                    </swe:field>
+                    <swe:field name="电流">
+                        <swe:Quantity definition="urn:ogc:def:property:current">
+                            <swe:uom code="A"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="电压">
+                        <swe:Quantity definition="urn:ogc:def:property:voltage">
+                            <swe:uom code="V"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="功率">
+                        <swe:Quantity definition="urn:ogc:def:property:power">
+                            <swe:uom code="W"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="输出功率">
+                        <swe:Quantity definition="urn:ogc:def:property:outputPower">
+                            <swe:uom code="w"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="设计寿命">
+                        <swe:Quantity definition="urn:ogc:def:property:designedLife">
+                            <swe:uom code="year"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="工作温度范围">
+                        <swe:QuantityRange definition="urn:ogc:def:property:operatingTemperature">
+                            <swe:uom code="cel"/>
+                            <swe:value>00 00</swe:value>
+                        </swe:QuantityRange>
+                    </swe:field>
+                    <swe:field name="工作湿度范围">
+                        <swe:QuantityRange definition="urn:ogc:def:property:operatingHumidity">
+                            <swe:uom code="%"/>
+                            <swe:value>00 00</swe:value>
+                        </swe:QuantityRange>
+                    </swe:field>
+                    <swe:field name="防护等级">
+                        <swe:Text definition="urn:ogc:def:property:protectionGrade">
+                            <swe:value>00</swe:value>
+                        </swe:Text>
+                    </swe:field>
+                    <swe:field name="无故障时间">
+                        <swe:Quantity definition="urn:ogc:def:property:MTBF">
+                            <swe:uom code="h"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="是否可控">
+                        <swe:Boolean definition="urn:ogc:def:property:isOperable">
+                            <swe:value>false</swe:value>
+                        </swe:Boolean>
+                    </swe:field>
+                    <swe:field name="接口类型">
+                        <swe:Category definition="urn:ogc:def:property:interfaceType">
+                            <swe:value>00</swe:value>
+                        </swe:Category>
+                    </swe:field>
+                </swe:DataRecord>
+            </sml:characteristics>
+            <!--  传感器能力特征==>观测能力  -->
+            <sml:capabilities>
+                <swe:DataRecord definition="urn:ogc:def:property:Liesmars:measurementCapabilities">
+                    <!--  传感器观测能力==>观测广度  -->
+                    <swe:field name="observedBBOX">
+                        <swe:Envelope definition="urn:ogc:def:property:OGC:1.0:observedBBOX"
+                                      referenceFrame="urn:ogc:def:crs:EPSG:4326">
+                            <swe:lowerCorner>
+                                <swe:Vector>
+                                    <swe:coordinate name="纬度">
+                                        <swe:Quantity axisID="y">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                    <swe:coordinate name="经度">
+                                        <swe:Quantity axisID="x">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                </swe:Vector>
+                            </swe:lowerCorner>
+                            <swe:upperCorner>
+                                <swe:Vector>
+                                    <swe:coordinate name="纬度">
+                                        <swe:Quantity axisID="y">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                    <swe:coordinate name="经度">
+                                        <swe:Quantity axisID="x">
+                                            <swe:uom code="deg" xlink:href="urn:ogc:def:uom:UCUM::deg"/>
+                                            <swe:value>00</swe:value>
+                                        </swe:Quantity>
+                                    </swe:coordinate>
+                                </swe:Vector>
+                            </swe:upperCorner>
+                        </swe:Envelope>
+                    </swe:field>
+                    <!--  传感器观测能力==>观测深度  -->
+                    <swe:field name="观测深度分辨率">
+                        <swe:Quantity definition="urn:ogc:def:property:presMeasurementResolution">
+                            <swe:uom code="dbar"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="观测深度精度">
+                        <swe:Quantity definition="urn:ogc:def:property:presMeasurementRMS">
+                            <swe:uom code="dbar"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="海水温度观测分辨率">
+                        <swe:Quantity definition="urn:ogc:def:property:tempMeasurementResolution">
+                            <swe:uom code="degC(ITS-90)"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="海水温度观测精度">
+                        <swe:Quantity definition="urn:ogc:def:property:tempMeasurementRMS">
+                            <swe:uom code="degC(ITS-90)"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="海水盐度观测分辨率">
+                        <swe:Quantity definition="urn:ogc:def:property:cndcMeasurementResolution">
+                            <swe:uom code="psu"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="海水盐度观测精度">
+                        <swe:Quantity definition="urn:ogc:def:property:cndcMeasurementRMS">
+                            <swe:uom code="psu"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <!--  传感器观测能力==>观测频度  -->
+                    <swe:field name="观测周期">
+                        <swe:Quantity definition="urn:ogc:def:property:measurementInterval">
+                            <swe:uom code="s"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="响应时间">
+                        <swe:Quantity definition="urn:ogc:def:property:ResponseTime">
+                            <swe:uom code="s"/>
+                            <swe:value>00</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                </swe:DataRecord>
+            </sml:capabilities>
+            <!--  平台互操作服务==>联系单位  -->
+            <sml:contact xlink:arcrole="urn:ogc:def:role:operator">
+                <sml:ResponsibleParty>
+                    <sml:organizationName>********Institution Japan Agency for Marine-Earth Science and Technology
+                        (JAMSTEC)
+                    </sml:organizationName>
+                    <sml:contactInfo>
+                        <sml:phone>
+                            <sml:voice>00</sml:voice>
+                        </sml:phone>
+                        <sml:address>
+                            <sml:deliveryPoint>00</sml:deliveryPoint>
+                            <sml:city>00</sml:city>
+                            <sml:administrativeArea>00</sml:administrativeArea>
+                            <sml:postalCode>00</sml:postalCode>
+                            <sml:country>00</sml:country>
+                            <sml:electronicMailAddress>00</sml:electronicMailAddress>
+                        </sml:address>
+                    </sml:contactInfo>
+                </sml:ResponsibleParty>
+            </sml:contact>
+            <!--  传感器定位能力  -->
+            <sml:position name="传感器位置">
+                <swe:Position fixed="false" referenceFrame="urn:ogc:def:crs:EPSG:4326">
+                    <swe:location>
+                        <swe:Vector definition="urn:ogc:def:property:OGC:location">
+                            <swe:coordinate name="纬度">
+                                <swe:Quantity axisID="y" definition="urn:ogc:def:property:OGC:latitude">
+                                    <swe:uom code="deg"/>
+                                    <swe:value>00</swe:value>
+                                </swe:Quantity>
+                            </swe:coordinate>
+                            <swe:coordinate name="经度">
+                                <swe:Quantity axisID="x" definition="urn:ogc:def:property:OGC:longitude">
+                                    <swe:uom code="deg"/>
+                                    <swe:value>00</swe:value>
+                                </swe:Quantity>
+                            </swe:coordinate>
+                            <swe:coordinate name="高度">
+                                <swe:Quantity axisID="z" definition="urn:ogc:def:property:OGC:altitude">
+                                    <swe:uom code="m"/>
+                                    <swe:value>00</swe:value>
+                                </swe:Quantity>
+                            </swe:coordinate>
+                        </swe:Vector>
+                    </swe:location>
+                </swe:Position>
+            </sml:position>
+            <!--  传感器互操作服务==>服务接口  -->
+            <sml:interfaces>
+                <sml:InterfaceList>
+                    <sml:interface name="ArgoFloat-******Name-*****Code-SBE41_SOS">
+                        <sml:InterfaceDefinition>
+                            <sml:serviceLayer>
+                                <swe:DataRecord definition="urn:ogc:def:interface:OGC:1.0:SWEServiceInterface">
+                                    <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceURL">
+                                        <swe:Text>
+                                            <swe:value>http://gsw.whu.edu.cn:8080/MongoSOS2/sos,LIESMARS</swe:value>
+                                        </swe:Text>
+                                    </swe:field>
+                                    <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceType">
+                                        <swe:Text>
+                                            <swe:value>SOS</swe:value>
+                                        </swe:Text>
+                                    </swe:field>
+                                    <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceSpecificSensorID">
+                                        <swe:Text>
+                                            <swe:value>urn:liesmars:insitusensor:ArgoFloat-******Name-*****Code-SBE41
+                                            </swe:value>
+                                        </swe:Text>
+                                    </swe:field>
+                                </swe:DataRecord>
+                            </sml:serviceLayer>
+                        </sml:InterfaceDefinition>
+                    </sml:interface>
+                </sml:InterfaceList>
+            </sml:interfaces>
+            <!--  输入输出  -->
+            <sml:inputs>
+                <sml:InputList>
+                    <sml:input name="Argo浮标信号">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatSignal"/>
+                    </sml:input>
+                    <sml:input name="观测深度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"/>
+                    </sml:input>
+                    <sml:input name="海水温度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatZtmp"/>
+                    </sml:input>
+                    <sml:input name="海水盐度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatZsal"/>
+                    </sml:input>
+                </sml:InputList>
+            </sml:inputs>
+            <sml:outputs>
+                <sml:OutputList>
+                    <sml:output name="位置">
+                        <swe:Position definition="urn:ogc:def:phenomenon:OGC:1.0.30:position">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                        </swe:Position>
+                    </sml:output>
+                    <sml:output name="观测深度">
+                        <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                            <swe:uom code="dbar"/>
+                        </swe:Quantity>
+                    </sml:output>
+                    <sml:output name="海水温度">
+                        <swe:Quantity definition="urn:ogc:def:phenomenon:OGC:1.0.30:argoFloatZtmp">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                            <swe:uom code="degC(ITS-90)"/>
+                        </swe:Quantity>
+                    </sml:output>
+                    <sml:output name="海水盐度">
+                        <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatZsal">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                            <swe:uom code="psu"/>
+                        </swe:Quantity>
+                    </sml:output>
+                </sml:OutputList>
+            </sml:outputs>
+            <!--     部件     -->
+            <sml:components/>
+            <!--     关联    -->
+        </sml:System>
+    </sml:member>
+</SensorML>
