@@ -231,22 +231,25 @@ class station():
             stringtmp = stringtmp.decode('utf-8')
         return stringtmp
 
-    def setDescription(self, stationName, Description, project):
+    def setDescription(self, stationName, stationCode,Description, project):
         '''根据sensorName改变浮标的description内容'''
         stationName = self.__unicode(stationName)
+        stationCode=self.__unicode(stationCode)
         Description = self.__unicode(Description)
         project = self.__unicode(project)
         path = "/ns:SensorML/sml:member/sml:System/gml:description"
         description = self.stationXml.xpath(path, namespaces=sensorNS)
         description[0].text = u"Argo是“全球海洋观测业务系统计划(GOOS)”中的一个针对深海区温盐结构观测的子计" \
-                              u"划。" + stationName + u"是" + Description + u",即" + project + u"项目中采用自动剖面观测" \
-                                                                                           u"海水温、盐度的漂流设备，对于研究全球海洋的温度、盐度、环流及其它们的变化情况。"
+                              u"划。" + stationName +u" "+stationCode+ u"是" + Description + u",即" + project + u"项" \
+                               u"目中采用自动剖面观测" \
+                               u"海水温、盐度的漂流设备，对于研究全球海洋的温度、盐度、环流及其它们的变化情况。"
 
-    def setKeywords(self, stationName):
+    def setKeywords(self, stationName,stationCode):
+        stationCode = self.__unicode(stationCode)
         stationName = self.__unicode(stationName)
         path = u"/ns:SensorML/sml:member/sml:System/sml:keywords/sml:KeywordList/sml:keyword"
         keywords = self.stationXml.xpath(path, namespaces=sensorNS)
-        keywords[2].text = stationName
+        keywords[2].text = stationName+u" "+stationCode
 
     def setIdentifier(self, stationName, stationCode):
         stationName = self.__unicode(stationName)
@@ -254,20 +257,20 @@ class station():
         path = u"/ns:SensorML/sml:member/sml:System/sml:identification/sml:IdentifierList/sml:identifier" \
                u"/sml:Term/sml:value"
         identifier = self.stationXml.xpath(path, namespaces=sensorNS)
-        stationNamelink=stationName
-        stationNamelink.replace(u" ",u"-")
-        identifier[0].text = u"urn:liesmars:insitusensor:platform:ArgoFloat-" + stationNamelink + u"-" + stationCode
-        identifier[1].text = stationName+u"剖面浮标"
-        identifier[2].text = stationName
+        identifier[0].text = u"urn:liesmars:insitusensor:platform:ArgoFloat" \
+                             u"-" + stationName.replace(u" ",u"-") +u"-" + stationCode
+        identifier[1].text = stationName+u" "+stationCode+u"剖面浮标"
+        identifier[2].text = stationName+u" "+stationCode
         identifier[3].text = stationCode
 
-    def __setSensorname(self, sensorname):
+    def __setSensorname(self, sensorname,sensorCode):
         sensorname = self.__unicode(sensorname)
+        sensorCode = self.__unicode(sensorCode)
         path = u"/ns:SensorML/sml:member/sml:System/sml:identification/sml:IdentifierList"
         root = self.stationXml.xpath(path, namespaces=sensorNS)[0]
 
         valueele = etree.Element(sml + "value", nsmap=sensorNS)
-        valueele.text = sensorname
+        valueele.text = sensorname+u"-"+sensorCode
 
         termele = etree.Element(sml + "Term", nsmap=sensorNS)
         termele.set("definition", u"urn:ogc:def:identifier:OGC:1.0:associatedSensorName")
@@ -279,16 +282,18 @@ class station():
 
         root.append(identifierele)
 
-    def __setSensorid(self, stationName, stationCode, sensorName):
+    def __setSensorid(self, stationName, stationCode, sensorName,sensorCode):
         stationName = self.__unicode(stationName)
         stationCode = self.__unicode(stationCode)
         sensorName = self.__unicode(sensorName)
+        sensorCode = self.__unicode(sensorCode)
 
         path = u"/ns:SensorML/sml:member/sml:System/sml:identification/sml:IdentifierList"
         root = self.stationXml.xpath(path, namespaces=sensorNS)[0]
 
         valueele = etree.Element(sml + "value", nsmap=sensorNS)
-        valueele.text = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName + u"-" + stationCode + u"-" + sensorName
+        valueele.text = u"urn:liesmars:insitusensor:ArgoFloat-" \
+                        u"" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"-" + sensorName+u"-"+sensorCode
 
         termele = etree.Element(sml + "Term", nsmap=sensorNS)
         termele.set("definition", u"urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID")
@@ -303,11 +308,10 @@ class station():
     def setLoadsensors(self, stationName, stationCode, sensorlist):
         stationName = self.__unicode(stationName)
         stationCode = self.__unicode(stationCode)
-        sensorlist = [self.__unicode(i) for i in sensorlist]
 
-        for item in sensorlist:
-            self.__setSensorname(item)
-            self.__setSensorid(stationName, stationCode, item)
+        for (sensorName,sensorCode) in sensorlist:
+            self.__setSensorname(sensorName,sensorCode)
+            self.__setSensorid(stationName, stationCode, sensorName,sensorCode)
 
     def setValidtime(self, time):
         '''更具平台时间设置validtime'''
@@ -337,27 +341,28 @@ class station():
         stationCode = self.__unicode(stationCode)
         path = u"/ns:SensorML/sml:member/sml:System/sml:interfaces/sml:InterfaceList/sml:interface"
         interfaceName = self.stationXml.xpath(path, namespaces=sensorNS)
-        namevalue = u"ArgoFloat-" + stationName + u"-" + stationCode + u"_SOS"
+        namevalue = u"ArgoFloat-" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"_SOS"
         interfaceName[0].set("name", namevalue)
 
         path = u"/ns:SensorML/sml:member/sml:System/sml:interfaces/sml:InterfaceList/sml:interface" \
                u"/sml:InterfaceDefinition/sml:serviceLayer/swe:DataRecord/swe:field[3]/swe:Text/swe:value"
         interfaceValue = self.stationXml.xpath(path, namespaces=sensorNS)
         interfaceValue[
-            0].text = u"urn:liesmars:insitusensor:platform:ArgoFloat-" + stationName + u"-" + stationCode
+            0].text = u"urn:liesmars:insitusensor:platform:ArgoFloat-" + stationName.replace(u" ",u"-") + u"-" + stationCode
 
     def setComponent(self, stationName, stationCode, sensorlist):
         stationName = self.__unicode(stationName)
         stationCode = self.__unicode(stationCode)
-        sensorlist = [self.__unicode(i) for i in sensorlist]
+        sensorlist = [(self.__unicode(i),self.__unicode(j)) for i,j in sensorlist]
 
         path = u"/ns:SensorML/sml:member/sml:System/sml:components/sml:ComponentList"
         root = self.stationXml.xpath(path, namespaces=sensorNS)[0]
 
-        for item in sensorlist:
+        for (sensorName,sensorCode) in sensorlist:
             componentele = etree.Element(sml + "component", nsmap=sensorNS)
-            componentele.set("name", item)
-            href = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName + u"-" + stationCode + u"-" + item
+            componentele.set("name", sensorName+u"-"+sensorCode)
+            href = u"urn:liesmars:insitusensor:ArgoFloat" \
+                   u"-" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"-" + sensorName+u"-"+sensorCode
             componentele.set(xlink + "href", href)
             root.append(componentele)
 
