@@ -115,12 +115,12 @@ class sensor():
         identifier = self.sensorXml.xpath(path, namespaces=sensorNS)
 
         identifier[
-            0].text = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName + u"-" + stationCode + u"-" + sensorName
+            0].text = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"-" + sensorName
         identifier[1].text = sensorName
         identifier[2].text = sensorName
         identifier[3].text = stationName
         identifier[
-            4].text = u"urn:liesmars:insitusensor:platform:ArgoFloat-" + stationName + u"-" + stationCode
+            4].text = u"urn:liesmars:insitusensor:platform:ArgoFloat-" + stationName.replace(u" ",u"-") + u"-" + stationCode
         identifier[5].text = serialNumber
         identifier[6].text = maker
 
@@ -151,14 +151,14 @@ class sensor():
         sensorName = self.__unicode(sensorName)
         path = u"/ns:SensorML/sml:member/sml:System/sml:interfaces/sml:InterfaceList/sml:interface"
         interfaceName = self.sensorXml.xpath(path, namespaces=sensorNS)
-        namevalue = u"ArgoFloat-" + stationName + u"-" + stationCode + u"-" + sensorName + u"_SOS"
+        namevalue = u"ArgoFloat-" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"-" + sensorName + u"_SOS"
         interfaceName[0].set("name", namevalue)
 
         path = u"/ns:SensorML/sml:member/sml:System/sml:interfaces/sml:InterfaceList/sml:interface" \
                u"/sml:InterfaceDefinition/sml:serviceLayer/swe:DataRecord/swe:field[3]/swe:Text/swe:value"
         interfaceValue = self.sensorXml.xpath(path, namespaces=sensorNS)
         interfaceValue[
-            0].text = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName + u"-" + stationCode + u"-" + sensorName
+            0].text = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"-" + sensorName
 
     def __setInput(self, uomCode):
         '''根据uomCode设置输入,与setQuantity对应'''
@@ -371,28 +371,34 @@ class station():
         return etree.tostring(self.stationXml, encoding='utf-8', pretty_print=True)
 
 
-# floatsensor = sensor(r"F:\PythonLearning\resource\Argo_sensor1.xml")
-# floatsensor.setDescription("SBE41".decode('utf-8'))
-# floatsensor.setKeywords("SBE41".decode('utf-8'), "ARVOR-5870")
-# floatsensor.setIdentifier("ARVOR-5870", "48555", "SBE41", "1835", "SBE")
-# floatsensor.setValidtime("2014-08-05T00:00:00.0Z")
-# floatsensor.setQuantity("dbar".decode('utf-8'), 0, 0)
-# floatsensor.setOrg("Naval Oceanographic Office (NAVO)")
-# floatsensor.setInterface("ARVOR-5870", "48555", "SBE41")
-# floatsensor.setIOput("dbar")
 
+
+loadsensorlist = [("SBE-CP-41","1518"), ("SBE-CP-41","1835"),("SBE-CP-41","5838")]
 
 floatstation = station(r"F:\PythonLearning\resource\Argo_station1.xml")
-floatstation.setDescription("APEX-Profiling-Float", "Argo METRI/KMA, Republic of Korea", "Argo KORDI")
-floatstation.setIdentifier("APEX-Profiling-Float", "2900452")
-floatstation.setKeywords("APEX-Profiling-Float")
-loadsensorlist = ["SBE-CP-41", "SBE41CP", "sbe-41"]
-floatstation.setLoadsensors("APEX-Profiling-Float", "2900452", loadsensorlist)
-floatstation.setComponent("APEX-Profiling-Float", "2900452", loadsensorlist)
+floatstation.setDescription("APEX Profiling Float","2900452", "Argo METRI/KMA, Republic of Korea", "Argo KORDI")
+floatstation.setIdentifier("APEX Profiling Float", "2900452")
+floatstation.setKeywords("APEX Profiling Float", "2900452")
+floatstation.setLoadsensors("APEX Profiling Float", "2900452", loadsensorlist)
+floatstation.setComponent("APEX Profiling Float", "2900452", loadsensorlist)
 floatstation.setValidtime("2004-10-18T00:39:28.0Z")
-floatstation.setCategory("APEX-Profiling-Float")
+floatstation.setCategory("APEX Profiling Float")
 floatstation.setOrg("Korea Meteorological Administration (KMA)")
-floatstation.setInterface("APEX-Profiling-Float", "2900452")
+floatstation.setInterface("APEX Profiling Float", "2900452")
+
+fout = open(r"F:\PythonLearning\resource\teststation.xml", 'w')
+fout.write(floatstation.toString())
+fout.close()
+
+floatsensor = sensor(r"F:\PythonLearning\resource\Argo_sensor1.xml")
+floatsensor.setDescription("SBE-1518")
+floatsensor.setKeywords("SBE41".decode('utf-8'), "ARVOR-5870")
+floatsensor.setIdentifier("ARVOR-5870", "48555", "SBE41", "1835", "SBE")
+floatsensor.setValidtime("2014-08-05T00:00:00.0Z")
+floatsensor.setQuantity("dbar".decode('utf-8'), 0, 0)
+floatsensor.setOrg("Naval Oceanographic Office (NAVO)")
+floatsensor.setInterface("ARVOR-5870", "48555", "SBE41")
+floatsensor.setIOput("dbar")
 
 fout = open(r"F:\PythonLearning\resource\teststation.xml", 'w')
 fout.write(floatstation.toString())

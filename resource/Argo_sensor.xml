@@ -8,9 +8,7 @@
         <!-- 地面原位传感器 -->
         <!--===============-->
         <sml:System gml:id="InsituSensor">
-            <gml:description>
-                SBE41传感器是Argo剖面浮标的海水温、盐度信息采集漂流设备，集数据采集存储、无线数据通信、GPS、以及无线扩展等功能于一体,负责Argo剖面浮标位移等工作情况的远程监测与控制，以及全球海洋温度、盐度、环流及其它们变化情况的动态监测。
-            </gml:description>
+            <gml:description>SBE41传感器是Argo剖面浮标的海水温、盐度信息采集漂流设备，集数据采集存储、无线数据通信、GPS、以及无线扩展等功能于一体,负责Argo剖面浮标位移等工作情况的远程监测与控制，以及全球海洋温度、盐度、环流及其它们变化情况的动态监测。</gml:description>
             <gml:name>地面原位传感器</gml:name>
             <!--  传感器标签==>关键词  -->
             <sml:keywords>
@@ -18,12 +16,12 @@
                     <sml:keyword>原位</sml:keyword>
                     <sml:keyword>移动</sml:keyword>
                     <sml:keyword>位置观测</sml:keyword>
-                    <sml:keyword>SBE41</sml:keyword>
+					<sml:keyword>SBE41</sml:keyword>
                     <sml:keyword>Argo剖面浮标</sml:keyword>
-                    <sml:keyword>******Name</sml:keyword>
-                    <sml:keyword>深度观测</sml:keyword>
-                    <sml:keyword>海水温度观测</sml:keyword>
-                    <sml:keyword>海水盐度观测</sml:keyword>
+					<sml:keyword>******Name</sml:keyword>
+					<sml:keyword>深度观测</sml:keyword>
+					<sml:keyword>海水温度观测</sml:keyword>
+					<sml:keyword>海水盐度观测</sml:keyword>                    
                 </sml:KeywordList>
             </sml:keywords>
             <!--  传感器标签==>标示符  -->
@@ -59,7 +57,7 @@
                             <sml:value>*****SerialNumber</sml:value>
                         </sml:Term>
                     </sml:identifier>
-                    <sml:identifier name="制造厂商">
+					<sml:identifier name="制造厂商">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:manufacturer">
                             <sml:value>SBE</sml:value>
                         </sml:Term>
@@ -89,7 +87,7 @@
                             <sml:value>海洋监测</sml:value>
                         </sml:Term>
                     </sml:classifier>
-                    <sml:classifier name="预期应用">
+					<sml:classifier name="预期应用">
                         <sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
                             <sml:value>灾害</sml:value>
                         </sml:Term>
@@ -269,7 +267,7 @@
                             <swe:value>00</swe:value>
                         </swe:Quantity>
                     </swe:field>
-                    <swe:field name="海水温度观测分辨率">
+					<swe:field name="海水温度观测分辨率">
                         <swe:Quantity definition="urn:ogc:def:property:tempMeasurementResolution">
                             <swe:uom code="degC(ITS-90)"/>
                             <swe:value>00</swe:value>
@@ -281,7 +279,7 @@
                             <swe:value>00</swe:value>
                         </swe:Quantity>
                     </swe:field>
-                    <swe:field name="海水盐度观测分辨率">
+					<swe:field name="海水盐度观测分辨率">
                         <swe:Quantity definition="urn:ogc:def:property:cndcMeasurementResolution">
                             <swe:uom code="psu"/>
                             <swe:value>00</swe:value>
@@ -311,9 +309,7 @@
             <!--  平台互操作服务==>联系单位  -->
             <sml:contact xlink:arcrole="urn:ogc:def:role:operator">
                 <sml:ResponsibleParty>
-                    <sml:organizationName>********Institution Japan Agency for Marine-Earth Science and Technology
-                        (JAMSTEC)
-                    </sml:organizationName>
+                    <sml:organizationName>********Institution Japan Agency for Marine-Earth Science and Technology (JAMSTEC)</sml:organizationName>
                     <sml:contactInfo>
                         <sml:phone>
                             <sml:voice>00</sml:voice>
@@ -375,8 +371,7 @@
                                     </swe:field>
                                     <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceSpecificSensorID">
                                         <swe:Text>
-                                            <swe:value>urn:liesmars:insitusensor:ArgoFloat-******Name-*****Code-SBE41
-                                            </swe:value>
+                                            <swe:value>urn:liesmars:insitusensor:ArgoFloat-******Name-*****Code-SBE41</swe:value>
                                         </swe:Text>
                                     </swe:field>
                                 </swe:DataRecord>
@@ -391,10 +386,10 @@
                     <sml:input name="Argo浮标信号">
                         <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatSignal"/>
                     </sml:input>
-                    <sml:input name="观测深度">
+					<sml:input name="观测深度">
                         <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"/>
                     </sml:input>
-                    <sml:input name="海水温度">
+					<sml:input name="海水温度">
                         <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatZtmp"/>
                     </sml:input>
                     <sml:input name="海水盐度">
@@ -414,7 +409,7 @@
                             </gml:metaDataProperty>
                         </swe:Position>
                     </sml:output>
-                    <sml:output name="观测深度">
+					<sml:output name="观测深度">
                         <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth">
                             <gml:metaDataProperty>
                                 <offering>
@@ -425,7 +420,7 @@
                             <swe:uom code="dbar"/>
                         </swe:Quantity>
                     </sml:output>
-                    <sml:output name="海水温度">
+					<sml:output name="海水温度">
                         <swe:Quantity definition="urn:ogc:def:phenomenon:OGC:1.0.30:argoFloatZtmp">
                             <gml:metaDataProperty>
                                 <offering>
@@ -433,10 +428,10 @@
                                     <name>测绘遥感信息工程国家重点实验室（武汉大学）</name>
                                 </offering>
                             </gml:metaDataProperty>
-                            <swe:uom code="degC(ITS-90)"/>
+							<swe:uom code="degC(ITS-90)"/>
                         </swe:Quantity>
                     </sml:output>
-                    <sml:output name="海水盐度">
+					<sml:output name="海水盐度">
                         <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatZsal">
                             <gml:metaDataProperty>
                                 <offering>

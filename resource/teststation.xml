@@ -4,14 +4,14 @@
         <!--  地面传感器平台 -->
         <!--================-->
         <sml:System gml:id="InsituSensorPlatform-Mobile">
-            <gml:description>Argo是“全球海洋观测业务系统计划(GOOS)”中的一个针对深海区温盐结构观测的子计划。APEX-Profiling-Float是Argo METRI/KMA, Republic of Korea,即Argo KORDI项目中采用自动剖面观测海水温、盐度的漂流设备，对于研究全球海洋的温度、盐度、环流及其它们的变化情况。</gml:description>
+            <gml:description>Argo是“全球海洋观测业务系统计划(GOOS)”中的一个针对深海区温盐结构观测的子计划。APEX Profiling Float 2900452是Argo METRI/KMA, Republic of Korea,即Argo KORDI项目中采用自动剖面观测海水温、盐度的漂流设备，对于研究全球海洋的温度、盐度、环流及其它们的变化情况。</gml:description>
             <gml:name>地面传感器平台</gml:name>
             <!--  平台标签==>关键词  -->
             <sml:keywords>
                 <sml:KeywordList>
                     <sml:keyword>移动</sml:keyword>
 					<sml:keyword>Argo剖面浮标</sml:keyword>
-					<sml:keyword>APEX-Profiling-Float</sml:keyword>
+					<sml:keyword>APEX Profiling Float 2900452</sml:keyword>
                     <sml:keyword>位置观测</sml:keyword>
 					<sml:keyword>深度观测</sml:keyword>
 					<sml:keyword>海水温度观测</sml:keyword>
@@ -28,12 +28,12 @@
                     </sml:identifier>
                     <sml:identifier name="全称">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
-                            <sml:value>APEX-Profiling-Float剖面浮标</sml:value>
+                            <sml:value>APEX Profiling Float 2900452剖面浮标</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="简称">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
-                            <sml:value>APEX-Profiling-Float</sml:value>
+                            <sml:value>APEX Profiling Float 2900452</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="Argo剖面浮标编码">
@@ -41,7 +41,7 @@
                             <sml:value>2900452</sml:value>
                         </sml:Term>
                     </sml:identifier>					
-                <sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE-CP-41</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE41CP</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE41CP</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>sbe-41</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-sbe-41</sml:value></sml:Term></sml:identifier></sml:IdentifierList>
+                <sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE-CP-41-1518</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1518</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE-CP-41-1835</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1835</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器名称"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName"><sml:value>SBE-CP-41-5838</sml:value></sml:Term></sml:identifier><sml:identifier name="搭载传感器标识码"><sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID"><sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-5838</sml:value></sml:Term></sml:identifier></sml:IdentifierList>
             </sml:identification>
             <!--  平台标签==>分类器  -->
             <sml:classification>
@@ -105,7 +105,7 @@
                 <swe:DataRecord definition="urn:ogc:def:property:Liesmars:physicalProperties">
                     <swe:field name="Argo剖面浮标类型">
                         <swe:Category definition="urn:ogc:def:property:argoFloatType">
-                            <swe:value>APEX-Profiling-Float</swe:value>
+                            <swe:value>APEX Profiling Float</swe:value>
                         </swe:Category>
                     </swe:field>
                     <swe:field name="是否可控">
@@ -334,7 +334,7 @@
             <!--  组成部件  -->
             <sml:components>
                 <sml:ComponentList>
-                <sml:component name="SBE-CP-41" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41"/><sml:component name="SBE41CP" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE41CP"/><sml:component name="sbe-41" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-sbe-41"/></sml:ComponentList>
+                <sml:component name="SBE-CP-41-1518" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1518"/><sml:component name="SBE-CP-41-1835" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1835"/><sml:component name="SBE-CP-41-5838" xlink:href="urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-5838"/></sml:ComponentList>
             </sml:components>
             <!--     关联    -->
         </sml:System>
