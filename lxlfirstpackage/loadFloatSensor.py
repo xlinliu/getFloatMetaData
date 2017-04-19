@@ -19,8 +19,6 @@ def getSensors(station):
     HTML = etree.HTML(station)
     datatr = HTML.xpath("//tr[@class='configs' and td='Sensors']/descendant::tr")
 
-    print (etree.tostring(datatr[1]))
-
     tableHead = tr2list(datatr[0])
     datalist = []
 
@@ -48,7 +46,10 @@ numbers = [2900452, 2901717, 2901702, 2901727, 2900205, 7900239, 2901723, 290170
            2901763, 2901764, 2902555, 5901408, 2902686, 2902549, 2901529, 2902653, 2902656, 2901524, 2902580, 2902683,
            5903429, 2901545, 2902615, 2902562, 2902688, 5901861, 2902655, 5904909, 5901690, 5903749, 2902607, 2902661]
 resultlist=[]
+count=0
 for ptfCode in numbers:
+    print count
+    count+=1
     url = 'http://www.ifremer.fr/co-argoFloats/float?detail=true&ptfCode=' + str(
         ptfCode) + '&sort=PTF_CODE%3AASC&active=true&ocean=P&lang=en'
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
