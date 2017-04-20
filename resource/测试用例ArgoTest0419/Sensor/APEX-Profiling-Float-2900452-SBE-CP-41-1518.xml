@@ -1,10 +1,14 @@
-<SensorML xmlns="http://www.opengis.net/sensorML/1.0.1" xmlns:sml="http://www.opengis.net/sensorML/1.0.1" xmlns:gml="http://www.opengis.net/gml" xmlns:swe="http://www.opengis.net/swe/1.0.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.1" xsi:schemaLocation="http://www.opengis.net/sensorML/1.0.1 http://schemas.opengis.net/sensorML/1.0.1/sensorML.xsd">
+<SensorML xmlns="http://www.opengis.net/sensorML/1.0.1" xmlns:sml="http://www.opengis.net/sensorML/1.0.1"
+          xmlns:gml="http://www.opengis.net/gml" xmlns:swe="http://www.opengis.net/swe/1.0.1"
+          xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          version="1.0.1"
+          xsi:schemaLocation="http://www.opengis.net/sensorML/1.0.1 http://schemas.opengis.net/sensorML/1.0.1/sensorML.xsd">
     <sml:member>
         <!--===============-->
         <!-- 地面原位传感器 -->
         <!--===============-->
         <sml:System gml:id="InsituSensor">
-            <gml:description>SBE41传感器是Argo剖面浮标的海水温、盐度信息采集漂流设备，集数据采集存储、无线数据通信、GPS、以及无线扩展等功能于一体,负责Argo剖面浮标位移等工作情况的远程监测与控制，以及全球海洋温度、盐度、环流及其它们变化情况的动态监测。</gml:description>
+            <gml:description>SBE-CP-41-1518传感器是Argo剖面浮标的海水温、盐度信息采集漂流设备，集数据采集存储、无线数据通信、GPS、以及无线扩展等功能于一体,负责Argo剖面浮标位移等工作情况的远程监测与控制，以及全球海洋温度、盐度、环流及其它们变化情况的动态监测。</gml:description>
             <gml:name>地面原位传感器</gml:name>
             <!--  传感器标签==>关键词  -->
             <sml:keywords>
@@ -12,12 +16,10 @@
                     <sml:keyword>原位</sml:keyword>
                     <sml:keyword>移动</sml:keyword>
                     <sml:keyword>位置观测</sml:keyword>
-                    <sml:keyword>SBE41</sml:keyword>
+                    <sml:keyword>SBE-CP-41-1518</sml:keyword>
                     <sml:keyword>Argo剖面浮标</sml:keyword>
-                    <sml:keyword>ARVOR-5870</sml:keyword>
+                    <sml:keyword>APEX Profiling Float 2900452</sml:keyword>
                     <sml:keyword>深度观测</sml:keyword>
-                    <sml:keyword>海水温度观测</sml:keyword>
-                    <sml:keyword>海水盐度观测</sml:keyword>
                 </sml:KeywordList>
             </sml:keywords>
             <!--  传感器标签==>标示符  -->
@@ -25,32 +27,32 @@
                 <sml:IdentifierList>
                     <sml:identifier name="标识码">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:uniqueID">
-                            <sml:value>urn:liesmars:insitusensor:ArgoFloat-ARVOR-5870-48555-SBE41</sml:value>
+                            <sml:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1518</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="全称">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
-                            <sml:value>SBE41</sml:value>
+                            <sml:value>SBE-CP-41-1518</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="简称">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
-                            <sml:value>SBE41</sml:value>
+                            <sml:value>SBE-CP-41-1518</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="所属平台名称">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:parentSystemStandardName">
-                            <sml:value>ARVOR-5870</sml:value>
+                            <sml:value>APEX Profiling Float 2900452</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="所属平台标识码">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:parentSystemUniqueId">
-                            <sml:value>urn:liesmars:insitusensor:platform:ArgoFloat-ARVOR-5870-48555</sml:value>
+                            <sml:value>urn:liesmars:insitusensor:platform:ArgoFloat-APEX-Profiling-Float-2900452</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="序列号">
                         <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:serialNumber">
-                            <sml:value>1835</sml:value>
+                            <sml:value>1518</sml:value>
                         </sml:Term>
                     </sml:identifier>
                     <sml:identifier name="制造厂商">
@@ -108,7 +110,7 @@
             <!--  传感器互操作服务==>有效时间  -->
             <sml:validTime>
                 <gml:TimePeriod gml:id="站点平台有效时间">
-                    <gml:beginPosition>2014-08-05T00:00:00.0Z</gml:beginPosition>
+                    <gml:beginPosition>2004-10-18T00:39:28.0Z</gml:beginPosition>
                     <gml:endPosition indeterminatePosition="unknown"/>
                 </gml:TimePeriod>
             </sml:validTime>
@@ -214,7 +216,8 @@
                 <swe:DataRecord definition="urn:ogc:def:property:Liesmars:measurementCapabilities">
                     <!--  传感器观测能力==>观测广度  -->
                     <swe:field name="observedBBOX">
-                        <swe:Envelope definition="urn:ogc:def:property:OGC:1.0:observedBBOX" referenceFrame="urn:ogc:def:crs:EPSG:4326">
+                        <swe:Envelope definition="urn:ogc:def:property:OGC:1.0:observedBBOX"
+                                      referenceFrame="urn:ogc:def:crs:EPSG:4326">
                             <swe:lowerCorner>
                                 <swe:Vector>
                                     <swe:coordinate name="纬度">
@@ -264,12 +267,24 @@
                         </swe:Quantity>
                     </swe:field>
                     <!--  传感器观测能力 -->
-                <swe:field name="观测深度分辨率"><swe:Quantity definition="urn:ogc:def:property:presMeasurementResolution"><swe:uom code="dbar"/><swe:value>0</swe:value></swe:Quantity></swe:field><swe:field name="观测深度精度"><swe:Quantity definition="urn:ogc:def:property:presMeasurementRMS"><swe:uom code="dbar"/><swe:value>0</swe:value></swe:Quantity></swe:field></swe:DataRecord>
+                    <swe:field name="观测深度分辨率">
+                        <swe:Quantity definition="urn:ogc:def:property:presMeasurementResolution">
+                            <swe:uom code="dbar"/>
+                            <swe:value>2.4</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                    <swe:field name="观测深度精度">
+                        <swe:Quantity definition="urn:ogc:def:property:presMeasurementRMS">
+                            <swe:uom code="dbar"/>
+                            <swe:value>1</swe:value>
+                        </swe:Quantity>
+                    </swe:field>
+                </swe:DataRecord>
             </sml:capabilities>
             <!--  平台互操作服务==>联系单位  -->
             <sml:contact xlink:arcrole="urn:ogc:def:role:operator">
                 <sml:ResponsibleParty>
-                    <sml:organizationName>Naval Oceanographic Office (NAVO)</sml:organizationName>
+                    <sml:organizationName>Korea Meteorological Administration (KMA)</sml:organizationName>
                     <sml:contactInfo>
                         <sml:phone>
                             <sml:voice>00</sml:voice>
@@ -315,7 +330,7 @@
             <!--  传感器互操作服务==>服务接口  -->
             <sml:interfaces>
                 <sml:InterfaceList>
-                    <sml:interface name="ArgoFloat-ARVOR-5870-48555-SBE41_SOS">
+                    <sml:interface name="ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1518_SOS">
                         <sml:InterfaceDefinition>
                             <sml:serviceLayer>
                                 <swe:DataRecord definition="urn:ogc:def:interface:OGC:1.0:SWEServiceInterface">
@@ -331,7 +346,7 @@
                                     </swe:field>
                                     <swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceSpecificSensorID">
                                         <swe:Text>
-                                            <swe:value>urn:liesmars:insitusensor:ArgoFloat-ARVOR-5870-48555-SBE41</swe:value>
+                                            <swe:value>urn:liesmars:insitusensor:ArgoFloat-APEX-Profiling-Float-2900452-SBE-CP-41-1518</swe:value>
                                         </swe:Text>
                                     </swe:field>
                                 </swe:DataRecord>
@@ -343,7 +358,13 @@
             <!--  输入输出  -->
             <sml:inputs>
                 <sml:InputList>
-                <sml:input name="观测深度"><swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"/></sml:input></sml:InputList>
+                    <sml:input name="Argo浮标信号">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatSignal"/>
+                    </sml:input>
+					<sml:input name="观测深度">
+                        <swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"/>
+                    </sml:input>
+                </sml:InputList>
             </sml:inputs>
             <sml:outputs>
                 <sml:OutputList>
@@ -357,7 +378,18 @@
                             </gml:metaDataProperty>
                         </swe:Position>
                     </sml:output>
-                <sml:output name="观测深度"><swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"><gml:metaDataProperty><offering><id>LIESMARS</id><name>测绘遥感信息工程国家重点实验室（武汉大学)</name></offering></gml:metaDataProperty><swe:uom code="dbar"/></swe:Quantity></sml:output></sml:OutputList>
+                    <sml:output name="观测深度">
+                        <swe:Quantity definition="urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth">
+                            <gml:metaDataProperty>
+                                <offering>
+                                    <id>LIESMARS</id>
+                                    <name>测绘遥感信息工程国家重点实验室（武汉大学)</name>
+                                </offering>
+                            </gml:metaDataProperty>
+                            <swe:uom code="dbar"/>
+                        </swe:Quantity>
+                    </sml:output>
+                </sml:OutputList>
             </sml:outputs>
             <!--     部件     -->
             <sml:components/>

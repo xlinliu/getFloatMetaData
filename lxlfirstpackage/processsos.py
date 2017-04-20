@@ -26,18 +26,66 @@ class sensor():
         sensortext = unicode(fin.read(), "utf-8")
         self.sensorXml = etree.fromstring(sensortext)
         fin.close()
-        self.Rnamedic = {u"dbar": u"观测深度分辨率", u"degC": u"海水温度观测分辨率", u"psu": u"海水盐度观测分辨率"}
-        self.RMSnamedic = {u"dbar": u"观测深度精度", u"degC": u"海水温度观测精度", u"psu": u"海水盐度观测精度"}
-        self.Rdefdic = {u"dbar": u"urn:ogc:def:property:presMeasurementResolution",
-                        u"degC": u"urn:ogc:def:property:tempMeasurementResolution",
-                        u"psu": u"urn:ogc:def:property:cndcMeasurementResolution"}
-        self.RMSdefdic = {u"dbar": u"urn:ogc:def:property:presMeasurementRMS",
-                          u"degC": u"urn:ogc:def:property:tempMeasurementRMS",
-                          u"psu": u"urn:ogc:def:property:cndcMeasurementRMS"}
-        self.ioputdic = {u"dbar": u"观测深度", u"degC": u"海水温度", u"psu": u"海水盐度"}
-        self.iodefdic = {u"dbar": u"urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth",
-                         u"degC": u"urn:ogc:def:property:OGC:1.0:argoFloatZtmp",
-                         u"psu": u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"}
+        self.Rnamedic = {
+            u"CTD_PRES": [u"dbar", u"观测深度分辨率"],
+            u"PRES": [u"dbar", u"观测深度分辨率"],
+            u"CTD_TEMP": [u"degC", u"海水温度观测分辨率"],
+            u"TEMP": [u"degC", u"海水温度观测分辨率"],
+            u"CTD_CNDC": [u"psu", u"海水盐度观测分辨率"],
+            u"CNDC": [u"psu", u"海水盐度观测分辨率"],
+            u"PSAL": [u"psu", u"海水盐度观测分辨率"],
+            u"S/m": [u"海水盐度观测分辨率"],
+            u"Siemens/meter": u"海水盐度观测分辨率"}
+        self.RMSnamedic = {
+            u"CTD_PRES": [u"dbar", u"观测深度精度"],
+            u"PRES": [u"dbar", u"观测深度精度"],
+            u"CTD_TEMP": [u"degC", u"海水温度观测精度"],
+            u"TEMP": [u"degC", u"海水温度观测精度"],
+            u"CTD_CNDC": [u"psu", u"海水盐度观测精度"],
+            u"CNDC": [u"psu", u"海水盐度观测精度"],
+            u"PSAL": [u"psu", u"海水盐度观测精度"],
+            u"S/m": u"海水盐度观测精度",
+            u"Siemens/meter": u"海水盐度观测精度"}
+        self.Rdefdic = {
+            u"CTD_PRES": [u"dbar", u"urn:ogc:def:property:presMeasurementResolution"],
+            u"PRES": [u"dbar", u"urn:ogc:def:property:presMeasurementResolution"],
+            u"CTD_TEMP": [u"degC", u"urn:ogc:def:property:tempMeasurementResolution"],
+            u"TEMP": [u"degC", u"urn:ogc:def:property:tempMeasurementResolution"],
+            u"CTD_CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementResolution"],
+            u"CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementResolution"],
+            u"PSAL": [u"psu", u"urn:ogc:def:property:cndcMeasurementResolution"],
+            u"S/m": u"urn:ogc:def:property:cndcMeasurementResolution",
+            u"Siemens/meter": u"urn:ogc:def:property:cndcMeasurementRMS"}
+        self.RMSdefdic = {
+            u"CTD_PRES": [u"dbar", u"urn:ogc:def:property:presMeasurementRMS"],
+            u"PRES": [u"dbar", u"urn:ogc:def:property:presMeasurementRMS"],
+            u"CTD_TEMP": [u"degC", u"urn:ogc:def:property:tempMeasurementRMS"],
+            u"TEMP": [u"degC", u"urn:ogc:def:property:tempMeasurementRMS"],
+            u"CTD_CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementRMS"],
+            u"CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementRMS"],
+            u"PSAL": [u"psu", u"urn:ogc:def:property:cndcMeasurementRMS"],
+            u"S/m": u"urn:ogc:def:property:cndcMeasurementRMS",
+            u"Siemens/meter": u"urn:ogc:def:property:cndcMeasurementRMS"}
+        self.ioputdic = {
+            u"CTD_PRES": [u"dbar", u"观测深度"],
+            u"PRES": [u"dbar", u"观测深度"],
+            u"CTD_TEMP": [u"degC", u"海水温度"],
+            u"TEMP": [u"degC", u"海水温度"],
+            u"CTD_CNDC": [u"psu", u"海水盐度"],
+            u"CNDC": [u"psu", u"海水盐度"],
+            u"PSAL": [u"psu", u"海水盐度"],
+            u"S/m": [u"海水盐度"],
+            u"Siemens/meter": [u"海水盐度"]}
+        self.iodefdic = {
+            u"CTD_PRES": [u"dbar", u"urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"],
+            u"PRES": [u"dbar", u"urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth"],
+            u"CTD_TEMP": [u"degC", u"urn:ogc:def:property:OGC:1.0:argoFloatZtmp"],
+            u"TEMP": [u"degC", u"urn:ogc:def:property:OGC:1.0:argoFloatZtmp"],
+            u"CTD_CNDC": [u"psu", u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"],
+            u"CNDC": [u"psu", u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"],
+            u"PSAL": [u"psu", u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"],
+            u"S/m": u"urn:ogc:def:property:OGC:1.0:argoFloatZsal",
+            u"Siemens/meter": u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"}
 
     def __unicode(self, stringtmp):
         if type(stringtmp) is not unicode:
@@ -46,37 +94,39 @@ class sensor():
 
     def __setResolution(self, uomCode, value):
         '''根据uomCode插入观测分辨率'''
-        uomCode = self.__unicode(uomCode)
+        uomCode = self.__unicode(uomCode.replace(' ', ''))
+        value = self.__unicode(value)
         path = u"/ns:SensorML/sml:member/sml:System/sml:capabilities/swe:DataRecord"
         root = self.sensorXml.xpath(path, namespaces=sensorNS)[0]
         valueele = etree.Element(swe + "value", nsmap=sensorNS)
-        valueele.text = str(value)
+        valueele.text = value
         uomele = etree.Element(swe + "uom", nsmap=sensorNS)
-        uomele.set("code", uomCode)
+        uomele.set("code", self.Rnamedic[uomCode][0])
         quantityele = etree.Element(swe + "Quantity", nsmap=sensorNS)
-        quantityele.set("definition", self.Rdefdic[uomCode])
+        quantityele.set("definition", self.Rdefdic[uomCode][1])
         quantityele.append(uomele)
         quantityele.append(valueele)
         fieldele = etree.Element(swe + "field", nsmap=sensorNS)
-        fieldele.set("name", self.Rnamedic[uomCode])
+        fieldele.set("name", self.Rnamedic[uomCode][1])
         fieldele.append(quantityele)
         root.append(fieldele)
 
     def __setRMS(self, uomCode, value):
         '''根据uomCode插入观测精度'''
         uomCode = self.__unicode(uomCode)
+        value = self.__unicode(value)
         path = u"/ns:SensorML/sml:member/sml:System/sml:capabilities/swe:DataRecord"
         root = self.sensorXml.xpath(path, namespaces=sensorNS)[0]
         valueele = etree.Element(swe + "value", nsmap=sensorNS)
-        valueele.text = str(value)
+        valueele.text = value
         uomele = etree.Element(swe + "uom", nsmap=sensorNS)
-        uomele.set("code", uomCode)
+        uomele.set("code", self.RMSdefdic[uomCode][0])
         quantityele = etree.Element(swe + "Quantity", nsmap=sensorNS)
-        quantityele.set("definition", self.RMSdefdic[uomCode])
+        quantityele.set("definition", self.RMSdefdic[uomCode][1])
         quantityele.append(uomele)
         quantityele.append(valueele)
         fieldele = etree.Element(swe + "field", nsmap=sensorNS)
-        fieldele.set("name", self.RMSnamedic[uomCode])
+        fieldele.set("name", self.RMSnamedic[uomCode][1])
         fieldele.append(quantityele)
         root.append(fieldele)
 
@@ -99,6 +149,15 @@ class sensor():
         keyword[3].text = sensorName
         keyword[5].text = stationName + u" " + stationCode
 
+    def appendKeywords(self, uomcode):
+        '''根据观测能力,添加关键字'''
+        uomcode = self.__unicode(uomcode)
+        path = "/ns:SensorML/sml:member/sml:System/sml:keywords/sml:KeywordList"
+        keyword = self.sensorXml.xpath(path, namespaces=sensorNS)
+        newkeyword = etree.Element(sml + 'keyword', nsmap=sensorNS)
+        newkeyword.text = self.ioputdic[uomcode][1] + u"观测"
+        keyword[0].append(newkeyword)
+
     def setIdentifier(self, stationName, stationCode, sensorName, serialNumber, maker):
         '''根据平台Name,平台Code,传感器Name生成标识码'''
         stationName = self.__unicode(stationName)
@@ -110,24 +169,24 @@ class sensor():
         identifier = self.sensorXml.xpath(path, namespaces=sensorNS)
 
         identifier[
-            0].text = u"urn:liesmars:insitusensor:ArgoFloat-" + stationName.replace(u" ",
-                                                                                    u"-") + u"-" + stationCode + u"-" + sensorName
+            0].text = u"urn:liesmars:insitusensor:ArgoFloat" \
+                      u"-" + stationName.replace(u" ",u"-") + u"-" + stationCode + u"-" + sensorName
         identifier[1].text = sensorName
         identifier[2].text = sensorName
-        identifier[3].text = stationName
+        identifier[3].text = stationName + u" " + stationCode
         identifier[
             4].text = u"urn:liesmars:insitusensor:platform:ArgoFloat-" + stationName.replace(u" ",
                                                                                              u"-") + u"-" + stationCode
         identifier[5].text = serialNumber
         identifier[6].text = maker
 
-    def setValidtime(self, time):
+    def setValidtime(self, Time):
         '''更具平台时间设置validtime'''
-        if type(time) is not unicode:
-            time = time.decode('utf-8')
+        if type(Time) is not unicode:
+            Time = Time.decode('utf-8')
         path = u"/ns:SensorML/sml:member/sml:System/sml:validTime/gml:TimePeriod/gml:beginPosition"
         validtime = self.sensorXml.xpath(path, namespaces=sensorNS)
-        validtime[0].text = time
+        validtime[0].text = Time
 
     def setQuantity(self, uomcode, Rvalue, RMSvalue):
         '''根据uomcode生成各个field的内容'''
@@ -164,9 +223,9 @@ class sensor():
         path = u"/ns:SensorML/sml:member/sml:System/sml:inputs/sml:InputList"
         root = self.sensorXml.xpath(path, namespaces=sensorNS)[0]
         observablePropertyele = etree.Element(swe + "ObservableProperty", nsmap=sensorNS)
-        observablePropertyele.set("definition", self.iodefdic[uomCode])
+        observablePropertyele.set("definition", self.iodefdic[uomCode][1])
         inputele = etree.Element(sml + "input", nsmap=sensorNS)
-        inputele.set("name", self.ioputdic[uomCode])
+        inputele.set("name", self.ioputdic[uomCode][1])
         inputele.append(observablePropertyele)
         root.append(inputele)
 
@@ -190,15 +249,15 @@ class sensor():
         metaDataPropertyele.append(offeringele)
 
         uomele = etree.Element(swe + "uom", nsmap=sensorNS)
-        uomele.set("code", uomCode)
+        uomele.set("code", self.iodefdic[uomCode][0])
 
         quantityele = etree.Element(swe + "Quantity", nsmap=sensorNS)
-        quantityele.set("definition", self.iodefdic[uomCode])
+        quantityele.set("definition", self.iodefdic[uomCode][1])
         quantityele.append(metaDataPropertyele)
         quantityele.append(uomele)
 
         outputele = etree.Element(sml + "output", nsmap=sensorNS)
-        outputele.set("name", self.ioputdic[uomCode])
+        outputele.set("name", self.ioputdic[uomCode][1])
         outputele.append(quantityele)
 
         root.append(outputele)
@@ -309,13 +368,13 @@ class station():
             self.__setSensorname(sensorName)
             self.__setSensorid(stationName, stationCode, sensorName)
 
-    def setValidtime(self, time):
+    def setValidtime(self, Time):
         '''更具平台时间设置validtime'''
-        if type(time) is not unicode:
-            time = time.decode('utf-8')
+        if type(Time) is not unicode:
+            Time = Time.decode('utf-8')
         path = u"/ns:SensorML/sml:member/sml:System/sml:validTime/gml:TimePeriod/gml:beginPosition"
         validtime = self.stationXml.xpath(path, namespaces=sensorNS)
-        validtime[0].text = time
+        validtime[0].text = Time
 
     def setCategory(self, stationName):
         stationName = self.__unicode(stationName)
@@ -368,7 +427,7 @@ class station():
         return etree.tostring(self.stationXml, encoding='utf-8', pretty_print=True)
 
 
-def setstation(stationName, stationCode, description, project, institution, time, loadsensorNamelist):
+def setstation(stationName, stationCode, description, project, institution, Time, loadsensorNamelist):
     # loadsensorNamelist = ["SBE-CP-41-1518", "SBE-CP-41-1835", "SBE-CP-41-5838"]
     # stationName = "APEX Profiling Float"
     # stationCode = "2900452"
@@ -382,7 +441,7 @@ def setstation(stationName, stationCode, description, project, institution, time
     floatstation.setKeywords(stationName, stationCode)
     floatstation.setLoadsensors(stationName, stationCode, loadsensorNamelist)
     floatstation.setComponent(stationName, stationCode, loadsensorNamelist)
-    floatstation.setValidtime(time)
+    floatstation.setValidtime(Time)
     floatstation.setCategory(stationName)
     floatstation.setOrg(institution)
     floatstation.setInterface(stationName, stationCode)
@@ -391,26 +450,28 @@ def setstation(stationName, stationCode, description, project, institution, time
     fout.close()
 
 
-def setsensor(stationName, stationCode, institution, time, sensorName, sensornum, maker, uomlist):
-    uomlist = [("dbar", 2.4, 1)]
-    stationName = "APEX Profiling Float"
-    stationCode = "2900452"
-    institution = "Korea Meteorological Administration (KMA)"
-    time = "2004-10-18T00:39:28.0Z"
-    sensorName = "SBE-CP-41-1518"
-    sensornum = "1518"
-    maker = "SBE"
+def setsensor(stationName, stationCode, institution, Time, sensorName, sensornum, maker, uomlist):
+    # uomlist = [("dbar", '2.4', '1')]
+    # stationName = "APEX Profiling Float"
+    # stationCode = "2900452"
+    # institution = "Korea Meteorological Administration (KMA)"
+    # time = "2004-10-18T00:39:28.0Z"
+    # sensorName = "SBE-CP-41-1518"
+    # sensornum = "1518"
+    # maker = "SBE"
     floatsensor = sensor(r"F:\PythonLearning\resource\Argo_sensor1.xml")
     floatsensor.setDescription(sensorName)
     floatsensor.setKeywords(sensorName, stationName, stationCode)
     floatsensor.setIdentifier(stationName, stationCode, sensorName, sensornum, maker)
-    floatsensor.setValidtime(time)
-    for uom, rvalue, rmsvalue in uomlist:
+    floatsensor.setValidtime(Time)
+    for (uom, rvalue, rmsvalue) in uomlist:
         floatsensor.setQuantity(uom, rvalue, rmsvalue)
         floatsensor.setIOput(uom)
+        floatsensor.appendKeywords(uom)
     floatsensor.setOrg(institution)
     floatsensor.setInterface(stationName, stationCode, sensorName)
 
-    fout = open("F:\\PythonLearning\\resource\\" + stationName + "-" + stationCode + "-" + sensorName + ".xml", 'w')
+    fout = open("F:\\PythonLearning\\resource\\sensors\\" + stationName + "-" + stationCode + "-" + sensorName + ".xml",
+                'w')
     fout.write(floatsensor.toString())
     fout.close()

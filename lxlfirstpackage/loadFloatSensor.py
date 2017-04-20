@@ -15,7 +15,7 @@ def tr2list(tr):
     return l2
 
 
-def getSensors(station):
+def getSensors(station,ptfCode):
     HTML = etree.HTML(station)
     datatr = HTML.xpath("//tr[@class='configs' and td='Sensors']/descendant::tr")
 
@@ -28,6 +28,7 @@ def getSensors(station):
         for value in zip(tableHead, valuelist):
             name=value[0].replace(" ","")
             data[name] = value[1]
+            data["ptfCode"]=ptfCode
         datalist.append(data)
     return datalist
 
@@ -58,7 +59,7 @@ for ptfCode in numbers:
         request = urllib2.Request(url, headers=headers)
         response = urllib2.urlopen(request)
         text = response.read()
-        sensor = getSensors(text)
+        sensor = getSensors(text,ptfCode)
         resultlist.append(sensor)
 
     except :
