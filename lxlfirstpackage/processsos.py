@@ -34,6 +34,8 @@ class sensor():
             u"CTD_CNDC": [u"psu", u"海水盐度观测分辨率"],
             u"CNDC": [u"psu", u"海水盐度观测分辨率"],
             u"PSAL": [u"psu", u"海水盐度观测分辨率"],
+            u"DOXY":[u"ml/l",u"浮游生物量观测分辨率"],
+            u"OPTODE_DOXY":[u"ml/l",u"浮游生物量观测分辨率"],
             u"S/m": [u"海水盐度观测分辨率"],
             u"Siemens/meter": u"海水盐度观测分辨率"}
         self.RMSnamedic = {
@@ -44,6 +46,8 @@ class sensor():
             u"CTD_CNDC": [u"psu", u"海水盐度观测精度"],
             u"CNDC": [u"psu", u"海水盐度观测精度"],
             u"PSAL": [u"psu", u"海水盐度观测精度"],
+            u"DOXY": [u"ml/l", u"浮游生物量观测精度"],
+            u"OPTODE_DOXY": [u"ml/l", u"浮游生物量观测精度"],
             u"S/m": u"海水盐度观测精度",
             u"Siemens/meter": u"海水盐度观测精度"}
         self.Rdefdic = {
@@ -54,6 +58,8 @@ class sensor():
             u"CTD_CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementResolution"],
             u"CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementResolution"],
             u"PSAL": [u"psu", u"urn:ogc:def:property:cndcMeasurementResolution"],
+            u"DOXY": [u"ml/l", u"urn:ogc:def:property:doxyMeasurementResolution"],
+            u"OPTODE_DOXY": [u"ml/l", u"urn:ogc:def:property:doxyMeasurementResolution"],
             u"S/m": u"urn:ogc:def:property:cndcMeasurementResolution",
             u"Siemens/meter": u"urn:ogc:def:property:cndcMeasurementRMS"}
         self.RMSdefdic = {
@@ -64,6 +70,8 @@ class sensor():
             u"CTD_CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementRMS"],
             u"CNDC": [u"psu", u"urn:ogc:def:property:cndcMeasurementRMS"],
             u"PSAL": [u"psu", u"urn:ogc:def:property:cndcMeasurementRMS"],
+            u"DOXY": [u"ml/l", u"urn:ogc:def:property:doxyMeasurementRMS"],
+            u"OPTODE_DOXY": [u"ml/l", u"urn:ogc:def:property:doxyMeasurementRMS"],
             u"S/m": u"urn:ogc:def:property:cndcMeasurementRMS",
             u"Siemens/meter": u"urn:ogc:def:property:cndcMeasurementRMS"}
         self.ioputdic = {
@@ -74,6 +82,8 @@ class sensor():
             u"CTD_CNDC": [u"psu", u"海水盐度"],
             u"CNDC": [u"psu", u"海水盐度"],
             u"PSAL": [u"psu", u"海水盐度"],
+            u"DOXY": [u"ml/l", u"浮游生物量"],
+            u"OPTODE_DOXY": [u"ml/l", u"浮游生物量"],
             u"S/m": [u"海水盐度"],
             u"Siemens/meter": [u"海水盐度"]}
         self.iodefdic = {
@@ -84,6 +94,8 @@ class sensor():
             u"CTD_CNDC": [u"psu", u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"],
             u"CNDC": [u"psu", u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"],
             u"PSAL": [u"psu", u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"],
+            u"DOXY": [u"ml/l", u"urn:ogc:def:property:OGC:1.0:argoFloatDoxy"],
+            u"OPTODE_DOXY": [u"ml/l", u"urn:ogc:def:property:OGC:1.0:argoFloatDoxy"],
             u"S/m": u"urn:ogc:def:property:OGC:1.0:argoFloatZsal",
             u"Siemens/meter": u"urn:ogc:def:property:OGC:1.0:argoFloatZsal"}
 
